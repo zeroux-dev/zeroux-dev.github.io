@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--
+  ZERO (Sobhan) — Personal Portfolio
+  Author   : ZERO (Sobhan) — https://github.com/zeroux-dev
+  Telegram : @fesqhli  (https://t.me/fesqhli)
+  Copyright (c) 2026 ZERO (Sobhan)
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZERO (Sobhan) — طراح UI/UX و توسعه‌دهنده وب</title>
+<meta name="description" content="ZERO (Sobhan) — UI/UX designer, web developer, SEO specialist, WordPress, Unity game developer and Telegram Mini App & bot developer. Portfolio, projects and contact.">
+<meta name="keywords" content="ZERO, zeroux, zeroux-dev, Sobhan, UI/UX designer, web developer, WordPress developer, Telegram bot developer, Telegram mini app, Unity developer, SEO, Flask, طراح UI/UX, برنامه نویس وب, طراح سایت, ربات تلگرام">
+<meta name="author" content="ZERO (Sobhan)">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://zeroux-dev.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zeroux-dev.github.io/">
+<meta property="og:title" content="ZERO (Sobhan) — UI/UX Designer & Web Developer">
+<meta property="og:description" content="Portfolio of ZERO: UI/UX, web, WordPress, Unity games, Telegram Mini Apps & bots.">
+<meta property="og:image" content="https://avatars.githubusercontent.com/zeroux-dev?s=460">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#07071a">
+<link rel="icon" href="https://avatars.githubusercontent.com/zeroux-dev?s=64">
+<!-- GOOGLE_SITE_VERIFICATION -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "ZERO (Sobhan)",
+  "alternateName": ["ZERO", "zeroux", "zeroux-dev", "Sobhan"],
+  "url": "https://zeroux-dev.github.io/",
+  "image": "https://avatars.githubusercontent.com/zeroux-dev?s=460",
+  "jobTitle": "UI/UX Designer & Web Developer",
+  "knowsAbout": ["UI/UX Design", "Web Development", "WordPress", "SEO", "Unity", "Telegram Bots", "Telegram Mini Apps", "Python", "Flask"],
+  "sameAs": ["https://github.com/zeroux-dev", "https://t.me/fesqhli"]
+}
+</script>
+<style>
+:root{--bg:#07071a;--bg2:#0e0e26;--card:rgba(255,255,255,.045);--line:rgba(255,255,255,.1);--text:#ecebff;--muted:#a3a5cf;--a1:#8ea2ff;--a2:#b58cff;--a3:#f0c987;--grad:linear-gradient(120deg,var(--a1),var(--a2) 55%,var(--a3))}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Space Grotesk','Vazirmatn',system-ui,sans-serif;line-height:1.6;overflow-x:hidden}
+.fa{font-family:'Vazirmatn',sans-serif;direction:rtl}
+a{color:inherit;text-decoration:none}
+#stage{position:fixed;inset:0;z-index:0;display:block}
+.glow{position:fixed;width:60vmax;height:60vmax;border-radius:50%;filter:blur(90px);opacity:.28;z-index:0;pointer-events:none;animation:float 18s ease-in-out infinite alternate}
+.g1{background:var(--a2);top:-25vmax;left:-15vmax}.g2{background:var(--a1);bottom:-30vmax;right:-20vmax;animation-delay:-9s}
+@keyframes float{to{transform:translate(8vmax,6vmax) scale(1.15)}}
+main,nav,footer{position:relative;z-index:2}
+nav{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:18px 5vw;backdrop-filter:blur(14px);background:rgba(7,7,26,.55);border-bottom:1px solid var(--line);z-index:10}
+.logo{font-weight:700;font-size:22px;letter-spacing:4px}.logo span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+nav ul{display:flex;gap:28px;list-style:none;font-size:14px;color:var(--muted)}nav ul a:hover{color:var(--text)}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:120px 5vw 60px}
+.avatar{width:120px;height:120px;border-radius:50%;padding:3px;background:var(--grad);box-shadow:0 0 60px rgba(181,140,255,.45);animation:pulse 4s ease-in-out infinite}
+.avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block;background:#111}
+@keyframes pulse{50%{box-shadow:0 0 90px rgba(142,162,255,.7)}}
+h1{font-size:clamp(64px,14vw,170px);line-height:.95;letter-spacing:.06em;margin:26px 0 6px;background:var(--grad);background-size:200% 200%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 6s linear infinite;text-shadow:0 0 80px rgba(181,140,255,.25)}
+@keyframes shine{to{background-position:200% 50%}}
+.sub{font-size:clamp(18px,2.4vw,24px);color:var(--muted);min-height:1.6em}
+.sub b{color:var(--text)}.caret{display:inline-block;width:2px;height:1.1em;background:var(--a2);vertical-align:-3px;margin-left:3px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.fa-line{margin-top:8px;color:var(--muted);font-size:17px}
+.cta{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap;justify-content:center}
+.btn{padding:14px 26px;border-radius:14px;font-weight:600;border:1px solid var(--line);background:var(--card);backdrop-filter:blur(10px);transition:.3s}
+.btn.primary{background:var(--grad);color:#0b0b1f;border:0;box-shadow:0 10px 40px rgba(142,162,255,.35)}
+.btn:hover{transform:translateY(-3px)}
+.scroll{margin-top:60px;width:26px;height:42px;border:2px solid var(--line);border-radius:14px;position:relative}.scroll:after{content:'';position:absolute;left:50%;top:8px;width:4px;height:8px;border-radius:2px;background:var(--a2);transform:translateX(-50%);animation:sc 1.8s infinite}
+@keyframes sc{to{top:24px;opacity:0}}
+section{padding:110px 5vw;max-width:1200px;margin:0 auto}
+.kicker{color:var(--a2);letter-spacing:3px;font-size:13px;text-transform:uppercase}
+h2{font-size:clamp(32px,5vw,52px);margin:6px 0 40px}
+.reveal{opacity:0;transform:translateY(40px);transition:1s cubic-bezier(.2,.8,.2,1)}.reveal.on{opacity:1;transform:none}
+.grid{display:grid;gap:22px}.g3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px;backdrop-filter:blur(14px);transform-style:preserve-3d;transition:transform .15s ease-out,border-color .3s,box-shadow .3s;will-change:transform}
+.card:hover{border-color:rgba(181,140,255,.5);box-shadow:0 20px 60px rgba(80,60,200,.25)}
+.card h3{font-size:20px;margin:14px 0 8px;transform:translateZ(30px)}.card p{color:var(--muted);font-size:15px;transform:translateZ(20px)}
+.ic{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;background:var(--grad);color:#0b0b1f;font-weight:700;font-size:20px;transform:translateZ(40px)}
+.chips{display:flex;flex-wrap:wrap;gap:12px}
+.chip{padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:14px;transition:.3s}.chip:hover{background:var(--grad);color:#0b0b1f;transform:translateY(-3px) scale(1.05)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:22px;margin-top:40px}
+.stat{text-align:center}.stat b{display:block;font-size:46px;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}.stat span{color:var(--muted);font-size:14px}
+.proj{padding:0;overflow:hidden}.proj .img{aspect-ratio:16/10;background:#111 center/cover;transform:translateZ(0);transition:transform .6s}.proj:hover .img{transform:scale(1.06)}
+.proj .body{padding:22px}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.tags i{font-style:normal;font-size:12px;color:var(--a1);border:1px solid rgba(142,162,255,.35);padding:3px 10px;border-radius:99px}
+.links{display:flex;gap:16px;margin-top:14px;font-size:14px}.links a{color:var(--a3)}.links a:hover{text-decoration:underline}
+.contact{text-align:center;border-radius:32px;padding:70px 5vw;background:linear-gradient(135deg,rgba(142,162,255,.14),rgba(181,140,255,.12),rgba(240,201,135,.1));border:1px solid var(--line)}
+.contact p{color:var(--muted);max-width:560px;margin:0 auto 30px}
+footer{text-align:center;padding:40px 5vw 60px;color:var(--muted);font-size:14px}
+@media (max-width:720px){nav ul{display:none}section{padding:80px 5vw}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<canvas id="stage" aria-hidden="true"></canvas>
+<div class="glow g1"></div><div class="glow g2"></div>
+
+<nav>
+  <a href="#top" class="logo"><span>ZERO</span></a>
+  <ul><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#work">Work</a></li><li><a href="#contact">Contact</a></li></ul>
+</nav>
+
+<main id="top">
+  <header class="hero">
+    <div class="avatar"><img src="https://avatars.githubusercontent.com/zeroux-dev?s=240" alt="ZERO" width="120" height="120"></div>
+    <h1>ZERO</h1>
+    <p class="sub">I'm <b>Sobhan</b> — <span id="typed"></span><span class="caret"></span></p>
+    <p class="fa fa-line">طراح UI/UX، توسعه‌دهنده وب، سئو، وردپرس، بازی‌سازی با Unity و ربات تلگرام</p>
+    <div class="cta">
+      <a class="btn primary" href="#work">View my work</a>
+      <a class="btn" href="https://t.me/fesqhli" target="_blank" rel="noopener">Telegram @fesqhli</a>
+      <a class="btn" href="https://github.com/zeroux-dev" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div class="scroll" aria-hidden="true"></div>
+  </header>
+
+  <section id="about" class="reveal">
+    <div class="kicker">About me</div>
+    <h2>Design that feels.<br>Code that performs.</h2>
+    <div class="grid g3">
+      <div class="card tilt"><div class="ic">UI</div><h3>UI/UX Design</h3><p>Clean, modern interfaces and user flows — from wireframe to pixel-perfect prototype.</p></div>
+      <div class="card tilt"><div class="ic">&lt;/&gt;</div><h3>Web Development</h3><p>Fast, responsive websites and web apps, WordPress & WooCommerce stores and custom plugins.</p></div>
+      <div class="card tilt"><div class="ic">TG</div><h3>Telegram Mini Apps & Bots</h3><p>Shop bots, support bots, automation and full web apps that run inside Telegram.</p></div>
+      <div class="card tilt"><div class="ic">SEO</div><h3>SEO & Performance</h3><p>Technical SEO, Cloudflare setup, speed optimisation and Search Console.</p></div>
+      <div class="card tilt"><div class="ic">3D</div><h3>Unity Games</h3><p>Game development with Unity — gameplay, UI and interactive 3D experiences.</p></div>
+      <div class="card tilt"><div class="ic">Py</div><h3>Python & Flask</h3><p>Back-end apps with Flask, SQLAlchemy and PostgreSQL, including admin dashboards.</p></div>
+    </div>
+    <div class="stats">
+      <div class="stat"><b data-count="4">0</b><span>Live client websites</span></div>
+      <div class="stat"><b data-count="6">0</b><span>Public projects</span></div>
+      <div class="stat"><b data-count="10">0</b><span>Core skills</span></div>
+      <div class="stat"><b data-count="100">0</b><span>% passion</span></div>
+    </div>
+  </section>
+
+  <section id="skills" class="reveal">
+    <div class="kicker">Toolbox</div>
+    <h2>Skills & Stack</h2>
+    <div class="chips">
+      <span class="chip">Figma</span><span class="chip">Adobe XD</span><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">React</span><span class="chip">Tailwind</span><span class="chip">WordPress</span><span class="chip">WooCommerce</span><span class="chip">PHP</span><span class="chip">Python</span><span class="chip">Flask</span><span class="chip">PostgreSQL</span><span class="chip">Node.js</span><span class="chip">Telegram Bot API</span><span class="chip">Unity</span><span class="chip">C#</span><span class="chip">Cloudflare</span><span class="chip">Google Search Console</span><span class="chip">Git</span>
+    </div>
+  </section>
+
+  <section id="work" class="reveal">
+    <div class="kicker">Selected work</div>
+    <h2>Projects</h2>
+    <div class="grid g3">
+      <article class="card proj tilt"><div class="img" style="background-image:url(https://raw.githubusercontent.com/zeroux-dev/zxacc-store-showcase/main/screenshots/zxacc.jpg)"></div><div class="body"><h3>ZxAcc — Premium Accounts Store</h3><p>E-commerce store for digital accounts with smart search and instant delivery.</p><div class="tags"><i>WordPress</i><i>WooCommerce</i><i>UI/UX</i></div><div class="links"><a href="https://zxacc.store" target="_blank" rel="noopener">Live ↗</a><a href="https://github.com/zeroux-dev/zxacc-store-showcase" target="_blank" rel="noopener">Showcase ↗</a></div></div></article>
+      <article class="card proj tilt"><div class="img" style="background-image:url(https://raw.githubusercontent.com/zeroux-dev/network-book-showcase/main/screenshots/networkbook.jpg)"></div><div class="body"><h3>Network Book — Online Bookstore</h3><p>Bookstore with category search, pay-on-delivery and app-style mobile UI.</p><div class="tags"><i>WordPress</i><i>WooCommerce</i><i>SEO</i></div><div class="links"><a href="https://network-book.ir" target="_blank" rel="noopener">Live ↗</a><a href="https://github.com/zeroux-dev/network-book-showcase" target="_blank" rel="noopener">Showcase ↗</a></div></div></article>
+      <article class="card proj tilt"><div class="img" style="background-image:url(https://raw.githubusercontent.com/zeroux-dev/nila-gallery-showcase/main/screenshots/nilagallery.jpg)"></div><div class="body"><h3>Nila Gallery — Accessories Shop</h3><p>Colorful online shop with mega-menu, campaigns and social integration.</p><div class="tags"><i>WordPress</i><i>WooCommerce</i><i>UI/UX</i></div><div class="links"><a href="https://nilagallery.ir" target="_blank" rel="noopener">Live ↗</a><a href="https://github.com/zeroux-dev/nila-gallery-showcase" target="_blank" rel="noopener">Showcase ↗</a></div></div></article>
+      <article class="card proj tilt"><div class="img" style="background-image:url(https://raw.githubusercontent.com/zeroux-dev/kharazi-tavos-showcase/main/screenshots/kharazitavos.jpg)"></div><div class="body"><h3>Kharazi Tavos — Craft Supplies</h3><p>Craft & sewing supplies store with visual categories and banner grid.</p><div class="tags"><i>WordPress</i><i>WooCommerce</i><i>SEO</i></div><div class="links"><a href="https://kharazitavos.com" target="_blank" rel="noopener">Live ↗</a><a href="https://github.com/zeroux-dev/kharazi-tavos-showcase" target="_blank" rel="noopener">Showcase ↗</a></div></div></article>
+      <article class="card proj tilt"><div class="img" style="background-image:url(https://raw.githubusercontent.com/zeroux-dev/flask-tech-blog/main/demo/covers/flask.jpg)"></div><div class="body"><h3>TechBlog — Flask Blog & Admin</h3><p>Full blog with accounts, likes, comments, reports and an admin dashboard.</p><div class="tags"><i>Python</i><i>Flask</i><i>PostgreSQL</i></div><div class="links"><a href="https://zeroux-dev.github.io/flask-tech-blog/" target="_blank" rel="noopener">Live demo ↗</a><a href="https://github.com/zeroux-dev/flask-tech-blog" target="_blank" rel="noopener">Code ↗</a></div></div></article>
+      <article class="card proj tilt"><div class="img" style="background:var(--grad);display:grid;place-items:center;color:#0b0b1f;font-size:44px;font-weight:700">UNITY</div><div class="body"><h3>Unity Games</h3><p>Two games are on the way — stay tuned.</p><div class="tags"><i>Unity</i><i>C#</i><i>Game Dev</i></div><div class="links"><a href="https://github.com/zeroux-dev" target="_blank" rel="noopener">GitHub ↗</a></div></div></article>
+    </div>
+  </section>
+
+  <section id="contact" class="reveal">
+    <div class="contact">
+      <div class="kicker">Let's work together</div>
+      <h2>Have a project in mind?</h2>
+      <p>Websites, WordPress stores, Telegram bots, UI/UX or a game idea — send me a message and let's build it.</p>
+      <p class="fa">برای سفارش طراحی سایت، ربات تلگرام یا UI/UX در تلگرام پیام بده.</p>
+      <div class="cta"><a class="btn primary" href="https://t.me/fesqhli" target="_blank" rel="noopener">Message @fesqhli</a><a class="btn" href="https://github.com/zeroux-dev" target="_blank" rel="noopener">github.com/zeroux-dev</a></div>
+    </div>
+  </section>
+</main>
+
+<footer>Designed & built by <b>ZERO (Sobhan)</b> · <a href="https://t.me/fesqhli">@fesqhli</a> · © 2026</footer>
+
+<script>
+/* ZERO (Sobhan) — t.me/fesqhli — 3D particle sphere, no libraries */
+(()=>{const c=document.getElementById('stage'),x=c.getContext('2d');let W,H,D=Math.min(devicePixelRatio||1,2);
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function rs(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;c.style.width=W+'px';c.style.height=H+'px';x.setTransform(D,0,0,D,0,0)}rs();addEventListener('resize',rs);
+const N=innerWidth<720?420:900,P=[],g=Math.PI*(3-Math.sqrt(5));
+for(let i=0;i<N;i++){const y=1-i/(N-1)*2,r=Math.sqrt(1-y*y),t=g*i;P.push([Math.cos(t)*r,y,Math.sin(t)*r,Math.random()])}
+const ring=[];for(let i=0;i<220;i++){const a=i/220*Math.PI*2;ring.push([Math.cos(a)*1.55,0,Math.sin(a)*1.55])}
+let ax=.35,ay=0,tx=0,ty=0,sy=0;
+addEventListener('mousemove',e=>{tx=(e.clientY/H-.5)*.6;ty=(e.clientX/W-.5)*1.2});
+addEventListener('scroll',()=>{sy=scrollY});
+const cols=[[142,162,255],[181,140,255],[240,201,135]];
+function proj(p,R,cx,cy){let [X,Y,Z]=p;const cA=Math.cos(ay),sA=Math.sin(ay),cB=Math.cos(ax),sB=Math.sin(ax);
+let x1=X*cA-Z*sA,z1=X*sA+Z*cA,y1=Y*cB-z1*sB,z2=Y*sB+z1*cB;const f=3.2/(3.2+z2);return[cx+x1*R*f,cy+y1*R*f,z2,f]}
+function frame(t){x.clearRect(0,0,W,H);ay+=reduce?0:.0022;ax+=(.35+tx-ax)*.04;const yy=ay+ty;
+const R=Math.min(W,H)*(W<720?.34:.3),cx=W/2,cy=H*.46-sy*.25;const save=ay;ay=yy;
+const pts=P.map(p=>{const q=proj(p,R,cx,cy);q.push(p[3]);return q}).sort((a,b)=>b[2]-a[2]);
+for(const q of pts){const d=(1-q[2])/2,a=.15+d*.85,s=.6+d*1.8;const k=cols[Math.floor(q[4]*3)];
+const tw=.6+.4*Math.sin(t/600+q[4]*20);x.fillStyle=`rgba(${k[0]},${k[1]},${k[2]},${a*tw})`;x.beginPath();x.arc(q[0],q[1],s,0,7);x.fill()}
+x.beginPath();ring.forEach((p,i)=>{const q=proj(p,R,cx,cy);i?x.lineTo(q[0],q[1]):x.moveTo(q[0],q[1])});x.closePath();
+const gr=x.createLinearGradient(cx-R*1.6,0,cx+R*1.6,0);gr.addColorStop(0,'rgba(142,162,255,.05)');gr.addColorStop(.5,'rgba(181,140,255,.45)');gr.addColorStop(1,'rgba(240,201,135,.05)');x.strokeStyle=gr;x.lineWidth=1.2;x.stroke();
+const m=proj([Math.cos(t/1400)*1.55,0,Math.sin(t/1400)*1.55],R,cx,cy);const gl=x.createRadialGradient(m[0],m[1],0,m[0],m[1],14*m[3]);gl.addColorStop(0,'rgba(255,240,210,1)');gl.addColorStop(1,'rgba(240,201,135,0)');x.fillStyle=gl;x.beginPath();x.arc(m[0],m[1],14*m[3],0,7);x.fill();
+ay=save;requestAnimationFrame(frame)}requestAnimationFrame(frame)})();
+
+/* typing roles */
+(()=>{const roles=['UI/UX Designer','Web Developer','WordPress Developer','SEO Specialist','Unity Game Developer','Telegram Bot Builder'];const el=document.getElementById('typed');let i=0,j=0,del=false;
+(function tick(){const w=roles[i];el.textContent=w.slice(0,j);if(!del&&j<w.length)j++;else if(del&&j>0)j--;else{del=!del;if(!del)i=(i+1)%roles.length;setTimeout(tick,del?1400:300);return}setTimeout(tick,del?40:85)})()})();
+
+/* reveal + counters */
+(()=>{const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('on');e.target.querySelectorAll('[data-count]').forEach(b=>{const n=+b.dataset.count;let k=0;const st=setInterval(()=>{k+=Math.max(1,Math.ceil(n/40));if(k>=n){k=n;clearInterval(st)}b.textContent=k+(n===100?'':'+')},30)});io.unobserve(e.target)}),{threshold:.15});document.querySelectorAll('.reveal').forEach(s=>io.observe(s))})();
+
+/* 3D tilt cards */
+document.querySelectorAll('.tilt').forEach(card=>{card.addEventListener('mousemove',e=>{const r=card.getBoundingClientRect(),px=(e.clientX-r.left)/r.width-.5,py=(e.clientY-r.top)/r.height-.5;card.style.transform=`perspective(900px) rotateY(${px*14}deg) rotateX(${-py*14}deg) translateZ(6px)`});card.addEventListener('mouseleave',()=>card.style.transform='')});
+</script>
+</body>
+</html>
