@@ -1,84 +1,106 @@
 <p align="center">
-  <a href="https://zeroux-dev.github.io/" title="Explore ZERO's portfolio">
-    <img src="./assets/zeroux-dev-luxury-3D-banner-animated.gif" alt="ZERO — animated portfolio banner" width="100%" />
+  <a href="https://zeroux-dev.github.io/" title="Open the ZERO portfolio">
+    <img src="./site-hero-live.gif" width="100%" alt="Animated ZERO portfolio banner in the site's ink, paper and orange palette" />
   </a>
 </p>
 
-<h1 align="center">Hey, I'm Sobhan. Call me ZERO.</h1>
-<p align="center"><strong>UI/UX Designer · Web Developer · Telegram Mini Apps & Bots</strong></p>
+<h1 align="center">ZERO / The portfolio</h1>
+<p align="center"><strong>One person. Design, code and everything between.</strong></p>
 
 <p align="center">
-  <img src="./assets/zero-typewriter.gif" alt="Animated typing: Interfaces with intention. Web experiences that feel right. Telegram apps with purpose." width="100%" />
+  <a href="https://zeroux-dev.github.io/"><strong>â†— EXPLORE THE LIVE SITE</strong></a>
+  &nbsp;Â·&nbsp;
+  <a href="https://zeroux-dev.github.io/?lang=fa">Ù†Ø³Ø®Ù‡Ù” ÙØ§Ø±Ø³ÛŒ</a>
+  &nbsp;Â·&nbsp;
+  <a href="https://t.me/fesqhli">START A PROJECT</a>
 </p>
 
+<p align="center"><img src="./site-typing-live.gif" width="100%" alt="Animated typewriter: from sketch to interaction; two languages; fast web experiences" /></p>
+
 <p align="center">
-  <a href="https://zeroux-dev.github.io/">Portfolio</a> &nbsp;·&nbsp;
-  <a href="#02--selected-work">Selected work</a> &nbsp;·&nbsp;
-  <a href="https://t.me/fesqhli">Let's talk ↗</a>
+  This repository contains the personal website of <strong>Sobhan, a.k.a. ZERO</strong> â€” a place to explore the work, the process and the services behind the name.
 </p>
+<p dir="rtl" align="center">Ø§ÛŒÙ† Ù…Ø®Ø²Ù†ØŒ Ø®Ø§Ù†Ù‡Ù” ÙˆØ¨â€ŒØ³Ø§ÛŒØª Ø´Ø®ØµÛŒ <strong>Ø³Ø¨Ø­Ø§Ù† / ZERO</strong> Ø§Ø³ØªØ› Ø¬Ø§ÛŒÛŒ Ø¨Ø±Ø§ÛŒ Ø¯ÛŒØ¯Ù† Ù†Ù…ÙˆÙ†Ù‡â€ŒÚ©Ø§Ø±Ù‡Ø§ØŒ Ø®Ø¯Ù…Ø§Øª Ùˆ Ù…Ø³ÛŒØ±ÛŒ Ú©Ù‡ Ø·Ø±Ø§Ø­ÛŒ Ø±Ø§ Ø¨Ù‡ Ù…Ø­ØµÙˆÙ„ Ù‚Ø§Ø¨Ù„â€ŒØ§Ø³ØªÙØ§Ø¯Ù‡ ØªØ¨Ø¯ÛŒÙ„ Ù…ÛŒâ€ŒÚ©Ù†Ø¯.</p>
 
 ---
 
-### 01 / The person behind the pixels
+## 01 / The experience
+
+This is a single-page portfolio built around a simple idea: **let the work speak clearly**. The page moves from an introduction to services, selected projects and a direct conversation.
+
+| | Inside the site |
+| :--- | :--- |
+| â—ˆ **Language** | Switch between English and Persian with a layout that changes direction for RTL text. |
+| â—ˆ **Atmosphere** | Four visual themes: Ink, Paper, Blueprint and Moss. |
+| â—ˆ **Motion** | Flowing canvas lines, an opening sequence, scroll reveals and interaction details. |
+| â—ˆ **Navigation** | Responsive sections, mobile menu and direct links to each part of the page. |
+| â—ˆ **Discoverability** | Meta and social tags, structured data, sitemap and robots file. |
+| â—ˆ **Consideration** | Reduced-motion preference is handled in the page's animations. |
+
+<p align="center"><img src="./site-themes-live.gif" width="100%" alt="Animated overview of the site's Ink, Paper, Blueprint and Moss themes" /></p>
+
+> **Try it:** [open the site](https://zeroux-dev.github.io/), switch **EN / FA**, then use the background control to explore all four themes.
+
+## 02 / Take a look around
+
+| Section | What you'll find |
+| :--- | :--- |
+| [**About**](https://zeroux-dev.github.io/#about) | The person behind ZERO and the meeting point of design and code. |
+| [**Services**](https://zeroux-dev.github.io/#services) | UI/UX, web development, WordPress, SEO, Telegram apps, Flask and Unity. |
+| [**Selected work**](https://zeroux-dev.github.io/#work) | Live storefronts, an open-source Flask project and work in progress. |
+| [**Contact**](https://zeroux-dev.github.io/#contact) | A direct way to start a conversation on Telegram. |
 
 <table>
   <tr>
-    <td width="54%" valign="middle">
-      <p>I bring design and development together to make digital experiences that look considered, feel intuitive and work in the real world.</p>
-      <p>From the first wireframe to the final interaction, I work across <strong>UI/UX, responsive websites, WordPress and WooCommerce, SEO, and Telegram apps and bots</strong>. I also explore <strong>Python / Flask</strong> and <strong>Unity</strong>.</p>
-      <p><sub>Current status: sketching, building, testing, calculating…</sub></p>
+    <td width="55%" valign="middle">
+      <h3>Thinking is part of the build.</h3>
+      <p>Before a component becomes a polished screen, there is a lot of sketching, questioning, testing and reworking. The little cat has the right expression for that part of the process.</p>
+      <p><strong>Observe â†’ Design â†’ Build â†’ Refine</strong></p>
     </td>
-    <td width="46%" align="center" valign="middle">
-      <img src="./assets/calculating-cat-blink.gif" alt="Calculating cat blinking while ideas come together" width="100%" />
+    <td width="45%" align="center" valign="middle">
+      <img src="./calculating-cat-blink.gif" width="100%" alt="Calculating cat blinking through a design problem" />
     </td>
   </tr>
 </table>
 
-<p dir="rtl" align="right">سلام، من سبحان هستم؛ طراح رابط و تجربهٔ کاربری و توسعه‌دهندهٔ وب. ایده‌ها را از طراحی اولیه تا محصولی قابل‌استفاده پیش می‌برم؛ از وب‌سایت و فروشگاه آنلاین تا مینی‌اپ و ربات تلگرام.</p>
+## 03 / Work behind the portfolio
 
-### 02 / Selected work
+The site links directly to projects and public showcases. These are **projects featured by the portfolio**, not pages built into this repository.
 
-<p align="center">
-  <img src="./assets/portfolio-slider.gif" alt="Animated showcase of selected projects" width="88%" />
-</p>
-
-| Project | Focus | Explore |
+| Project | Focus | Live / demo |
 | :--- | :--- | :--- |
-| **[ZxAcc](https://zxacc.store)** | Digital products storefront · UI/UX | [Showcase](https://github.com/zeroux-dev/zxacc-store-showcase) ↗ |
-| **[Network Book](https://network-book.ir)** | Online bookstore | [Showcase](https://github.com/zeroux-dev/network-book-showcase) ↗ |
-| **[Nila Gallery](https://nilagallery.ir)** | E-commerce for accessories | [Showcase](https://github.com/zeroux-dev/nila-gallery-showcase) ↗ |
-| **[Kharazi Tavos](https://kharazitavos.com)** | Craft and sewing supplies | [Showcase](https://github.com/zeroux-dev/kharazi-tavos-showcase) ↗ |
-| **[TechBlog](https://zeroux-dev.github.io/flask-tech-blog/)** | Flask blog with admin panel | [Repository](https://github.com/zeroux-dev/flask-tech-blog) ↗ |
+| **ZxAcc** | Digital products store Â· WordPress | [Visit â†—](https://zxacc.store) |
+| **Network Book** | Online bookstore Â· WooCommerce | [Visit â†—](https://network-book.ir) |
+| **Nila Gallery** | Accessories store Â· WooCommerce | [Visit â†—](https://nilagallery.ir) |
+| **Kharazi Tavos** | Craft supplies Â· WordPress / SEO | [Visit â†—](https://kharazitavos.com) |
+| **TechBlog** | Open-source Python / Flask blog and admin panel | [Demo â†—](https://zeroux-dev.github.io/flask-tech-blog/) Â· [Code â†—](https://github.com/zeroux-dev/flask-tech-blog) |
 
-<sub>Some client work lives in private repositories; the links above lead to public showcases or demos.</sub>
+## 04 / Under the hood
 
-### 03 / What I use
+This website is delivered as a static GitHub Pages site. Its layout, styles and interactions live in **[index.html](./index.html)**; there is no package installation or build command for the portfolio.
 
-| Design & experience | Build & ship | Beyond the browser |
-| :--- | :--- | :--- |
-| Figma · Adobe XD · Prototyping | HTML · CSS · JavaScript · React · Tailwind | Telegram Mini Apps · Bots |
-| UI systems · Responsive design | Python · Flask · WordPress · WooCommerce | SEO · Cloudflare · Unity / C# |
+| File | Role |
+| :--- | :--- |
+| [index.html](./index.html) | Page markup, responsive styles, translations, themes and interactions. |
+| [sitemap.xml](./sitemap.xml) | Sitemap for the published site. |
+| [robots.txt](./robots.txt) | Crawling guidance. |
+| [README.md](./README.md) | This project overview on GitHub. |
+| `*.gif` in this directory | Animated artwork used in this README. |
 
-<p align="center"><sub>Tools change. Clarity, useful details and thoughtful execution stay.</sub></p>
+**To explore locally:** clone this repository and open `index.html` in a browser. Google Fonts and the profile portrait use external URLs, so those details need an internet connection.
 
-### 04 / A little personality
+<p align="center"><img src="./cinematic-cat.gif" width="67%" alt="Animated cinematic cat calmly holding a cup under a meteor shower" /></p>
+<p align="center"><i>When the brief gets dramatic: find the next clear step and keep building.</i></p>
 
-<p align="center">
-  <img src="./assets/cinematic-cat.gif" alt="Animated cinematic cat calmly holding a cup amid a meteor shower" width="74%" />
-</p>
+## 05 / Open channel
 
-<p align="center"><i>When everything is on fire, take a breath, untangle the problem, then ship.</i></p>
-
-### 05 / Open channel
-
-<p align="center">
-  <img src="./assets/signal-live.gif" alt="Animated audio waveform — open channel" width="82%" />
-</p>
+<p align="center"><img src="./signal-live.gif" width="82%" alt="Animated audio waveform pulsing across the screen" /></p>
 
 <p align="center">
-  Have a project, a question or a promising idea?<br />
-  <strong><a href="https://t.me/fesqhli">Message me on Telegram ↗</a></strong> &nbsp;·&nbsp;
-  <a href="https://zeroux-dev.github.io/">Visit the portfolio ↗</a>
+  Have a website, store, interface or Telegram idea in mind?<br />
+  <strong><a href="https://t.me/fesqhli">Let's talk on Telegram â†—</a></strong>
+  &nbsp;Â·&nbsp;
+  <a href="https://zeroux-dev.github.io/">Explore ZERO's website â†—</a>
 </p>
 
-<p align="center"><sub>Designed & built by ZERO · Iran</sub></p>
+<p align="center"><sub>ZERO / SOBHAN Â· DESIGN Ã— DEVELOPMENT</sub></p>
