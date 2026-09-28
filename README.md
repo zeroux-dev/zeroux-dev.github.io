@@ -17,10 +17,7 @@
   <a href="https://t.me/fesqhli">Let's talk ↗</a>
 </p>
 
----
-
-### 01 / The person behind the pixels
-
+01 / The person behind the pixels
 <table>
   <tr>
     <td width="54%" valign="middle">
@@ -36,41 +33,36 @@
 
 <p dir="rtl" align="right">سلام، من سبحان هستم؛ طراح رابط و تجربهٔ کاربری و توسعه‌دهندهٔ وب. ایده‌ها را از طراحی اولیه تا محصولی قابل‌استفاده پیش می‌برم؛ از وب‌سایت و فروشگاه آنلاین تا مینی‌اپ و ربات تلگرام.</p>
 
-### 02 / Selected work
-
+02 / Selected work
 <p align="center">
   <img src="./assets/portfolio-slider.gif" alt="Animated showcase of selected projects" width="88%" />
 </p>
 
-| Project | Focus | Explore |
-| :--- | :--- | :--- |
-| **[ZxAcc](https://zxacc.store)** | Digital products storefront · UI/UX | [Showcase](https://github.com/zeroux-dev/zxacc-store-showcase) ↗ |
-| **[Network Book](https://network-book.ir)** | Online bookstore | [Showcase](https://github.com/zeroux-dev/network-book-showcase) ↗ |
-| **[Nila Gallery](https://nilagallery.ir)** | E-commerce for accessories | [Showcase](https://github.com/zeroux-dev/nila-gallery-showcase) ↗ |
-| **[Kharazi Tavos](https://kharazitavos.com)** | Craft and sewing supplies | [Showcase](https://github.com/zeroux-dev/kharazi-tavos-showcase) ↗ |
-| **[TechBlog](https://zeroux-dev.github.io/flask-tech-blog/)** | Flask blog with admin panel | [Repository](https://github.com/zeroux-dev/flask-tech-blog) ↗ |
+Project	Focus	Explore
+ZxAcc	Digital products storefront · UI/UX	Showcase ↗
+Network Book	Online bookstore	Showcase ↗
+Nila Gallery	E-commerce for accessories	Showcase ↗
+Kharazi Tavos	Craft and sewing supplies	Showcase ↗
+TechBlog	Flask blog with admin panel	Repository ↗
+
 
 <sub>Some client work lives in private repositories; the links above lead to public showcases or demos.</sub>
+03 / What I use
+Design & experience	Build & ship	Beyond the browser
+Figma · Adobe XD · Prototyping	HTML · CSS · JavaScript · React · Tailwind	Telegram Mini Apps · Bots
+UI systems · Responsive design	Python · Flask · WordPress · WooCommerce	SEO · Cloudflare · Unity / C#
 
-### 03 / What I use
-
-| Design & experience | Build & ship | Beyond the browser |
-| :--- | :--- | :--- |
-| Figma · Adobe XD · Prototyping | HTML · CSS · JavaScript · React · Tailwind | Telegram Mini Apps · Bots |
-| UI systems · Responsive design | Python · Flask · WordPress · WooCommerce | SEO · Cloudflare · Unity / C# |
 
 <p align="center"><sub>Tools change. Clarity, useful details and thoughtful execution stay.</sub></p>
 
-### 04 / A little personality
-
+04 / A little personality
 <p align="center">
   <img src="./assets/cinematic-cat.gif" alt="Animated cinematic cat calmly holding a cup amid a meteor shower" width="74%" />
 </p>
 
 <p align="center"><i>When everything is on fire, take a breath, untangle the problem, then ship.</i></p>
 
-### 05 / Open channel
-
+05 / Open channel
 <p align="center">
   <img src="./assets/signal-live.gif" alt="Animated audio waveform — open channel" width="82%" />
 </p>
