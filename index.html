@@ -1,208 +1,583 @@
 <!DOCTYPE html>
 <!--
-  ZERO (Sobhan) — Personal Portfolio
+  ZERO (Sobhan) — Personal site
   Author   : ZERO (Sobhan) — https://github.com/zeroux-dev
   Telegram : @fesqhli  (https://t.me/fesqhli)
-  Copyright (c) 2026 ZERO (Sobhan)
+  Copyright (c) 2026 ZERO (Sobhan). All rights reserved.
 -->
-<html lang="en">
+<html lang="en" dir="ltr" data-theme="ink">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ZERO (Sobhan) — طراح UI/UX و توسعه‌دهنده وب</title>
-<meta name="description" content="ZERO (Sobhan) — UI/UX designer, web developer, SEO specialist, WordPress, Unity game developer and Telegram Mini App & bot developer. Portfolio, projects and contact.">
-<meta name="keywords" content="ZERO, zeroux, zeroux-dev, Sobhan, UI/UX designer, web developer, WordPress developer, Telegram bot developer, Telegram mini app, Unity developer, SEO, Flask, طراح UI/UX, برنامه نویس وب, طراح سایت, ربات تلگرام">
+<title>ZERO (Sobhan) — UI/UX Designer & Web Developer | سبحان، طراح UI/UX و توسعه‌دهنده وب</title>
+<meta name="description" content="ZERO (Sobhan) — UI/UX designer and web developer: websites, WordPress & WooCommerce, SEO, Cloudflare, Telegram bots & mini apps, Python/Flask and Unity games. سبحان (ZERO) — طراح UI/UX، برنامه‌نویس وب، وردپرس، سئو، ربات تلگرام و Unity.">
+<meta name="keywords" content="ZERO, zeroux, zeroux-dev, Sobhan, سبحان, UI/UX designer, web developer, WordPress developer, Telegram bot developer, Telegram mini app, Unity developer, Flask project, SEO, طراح UI/UX, برنامه نویس وب, طراحی سایت, ربات تلگرام, پروژه فلسک">
 <meta name="author" content="ZERO (Sobhan)">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="google-site-verification" content="2Kqq0NMPpfELuMuCHKdnhCrvyTj6kJyK5WXLXj9b3y0" />
 <link rel="canonical" href="https://zeroux-dev.github.io/">
-<meta property="og:type" content="website">
+<meta property="og:type" content="profile">
 <meta property="og:url" content="https://zeroux-dev.github.io/">
 <meta property="og:title" content="ZERO (Sobhan) — UI/UX Designer & Web Developer">
-<meta property="og:description" content="Portfolio of ZERO: UI/UX, web, WordPress, Unity games, Telegram Mini Apps & bots.">
-<meta property="og:image" content="https://avatars.githubusercontent.com/zeroux-dev?s=460">
-<meta name="twitter:card" content="summary">
-<meta name="theme-color" content="#07071a">
+<meta property="og:description" content="Interfaces, websites, WordPress, SEO, Telegram bots & mini apps, Flask and Unity games.">
+<meta property="og:image" content="https://avatars.githubusercontent.com/zeroux-dev?s=600">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="fa_IR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0d0d0c">
 <link rel="icon" href="https://avatars.githubusercontent.com/zeroux-dev?s=64">
-<meta name="google-site-verification" content="2Kqq0NMPpfELuMuCHKdnhCrvyTj6kJyK5WXLXj9b3y0" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Vazirmatn:wght@300;400;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "ZERO (Sobhan)",
-  "alternateName": ["ZERO", "zeroux", "zeroux-dev", "Sobhan"],
+  "alternateName": ["ZERO", "zeroux", "zeroux-dev", "Sobhan", "سبحان"],
   "url": "https://zeroux-dev.github.io/",
-  "image": "https://avatars.githubusercontent.com/zeroux-dev?s=460",
+  "image": "https://avatars.githubusercontent.com/zeroux-dev?s=600",
   "jobTitle": "UI/UX Designer & Web Developer",
-  "knowsAbout": ["UI/UX Design", "Web Development", "WordPress", "SEO", "Unity", "Telegram Bots", "Telegram Mini Apps", "Python", "Flask"],
-  "sameAs": ["https://github.com/zeroux-dev", "https://t.me/fesqhli"]
+  "knowsAbout": ["UI/UX Design", "Web Development", "WordPress", "WooCommerce", "SEO", "Cloudflare", "Unity", "C#", "Telegram Bots", "Telegram Mini Apps", "Python", "Flask", "PostgreSQL"],
+  "sameAs": ["https://github.com/zeroux-dev", "https://t.me/fesqhli"],
+  "owns": {"@type": "SoftwareSourceCode", "name": "TechBlog — Flask Blog & Admin Panel", "codeRepository": "https://github.com/zeroux-dev/flask-tech-blog", "programmingLanguage": "Python"}
 }
 </script>
 <style>
-:root{--bg:#07071a;--bg2:#0e0e26;--card:rgba(255,255,255,.045);--line:rgba(255,255,255,.1);--text:#ecebff;--muted:#a3a5cf;--a1:#8ea2ff;--a2:#b58cff;--a3:#f0c987;--grad:linear-gradient(120deg,var(--a1),var(--a2) 55%,var(--a3))}
+:root{
+  --ease:cubic-bezier(.2,.7,.1,1);
+  --f-sans:'Inter Tight',system-ui,-apple-system,sans-serif;
+  --f-serif:'Instrument Serif',Georgia,serif;
+  --f-mono:'JetBrains Mono',ui-monospace,monospace;
+  --gut:clamp(16px,4vw,56px);
+}
+[data-theme="ink"]{--bg:#0d0d0c;--fg:#ecebe4;--mut:#8b8a83;--line:rgba(236,235,228,.12);--acc:#ff5b24;--acc-fg:#0d0d0c;--card:#161614}
+[data-theme="paper"]{--bg:#eeece5;--fg:#141412;--mut:#6d6b64;--line:rgba(20,20,18,.13);--acc:#ff4d12;--acc-fg:#fff;--card:#e5e2d9}
+[data-theme="blueprint"]{--bg:#0c1d36;--fg:#e8eefb;--mut:#8ea3c4;--line:rgba(232,238,251,.14);--acc:#ffd23f;--acc-fg:#0c1d36;--card:#12284a}
+[data-theme="moss"]{--bg:#161a13;--fg:#e8ebdd;--mut:#949b86;--line:rgba(232,235,221,.13);--acc:#c8f23a;--acc-fg:#161a13;--card:#1e2419}
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--text);font-family:'Space Grotesk','Vazirmatn',system-ui,sans-serif;line-height:1.6;overflow-x:hidden}
-.fa{font-family:'Vazirmatn',sans-serif;direction:rtl}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-sans);font-size:16px;line-height:1.55;overflow-x:hidden;transition:background .5s var(--ease),color .5s var(--ease)}
+html[lang="fa"] body{font-family:'Vazirmatn',var(--f-sans)}
 a{color:inherit;text-decoration:none}
-#stage{position:fixed;inset:0;z-index:0;display:block}
-.glow{position:fixed;width:60vmax;height:60vmax;border-radius:50%;filter:blur(90px);opacity:.28;z-index:0;pointer-events:none;animation:float 18s ease-in-out infinite alternate}
-.g1{background:var(--a2);top:-25vmax;left:-15vmax}.g2{background:var(--a1);bottom:-30vmax;right:-20vmax;animation-delay:-9s}
-@keyframes float{to{transform:translate(8vmax,6vmax) scale(1.15)}}
-main,nav,footer{position:relative;z-index:2}
-nav{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:18px 5vw;backdrop-filter:blur(14px);background:rgba(7,7,26,.55);border-bottom:1px solid var(--line);z-index:10}
-.logo{font-weight:700;font-size:22px;letter-spacing:4px}.logo span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
-nav ul{display:flex;gap:28px;list-style:none;font-size:14px;color:var(--muted)}nav ul a:hover{color:var(--text)}
-.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:120px 5vw 60px}
-.avatar{width:120px;height:120px;border-radius:50%;padding:3px;background:var(--grad);box-shadow:0 0 60px rgba(181,140,255,.45);animation:pulse 4s ease-in-out infinite}
-.avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block;background:#111}
-@keyframes pulse{50%{box-shadow:0 0 90px rgba(142,162,255,.7)}}
-h1{font-size:clamp(64px,14vw,170px);line-height:.95;letter-spacing:.06em;margin:26px 0 6px;background:var(--grad);background-size:200% 200%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 6s linear infinite;text-shadow:0 0 80px rgba(181,140,255,.25)}
-@keyframes shine{to{background-position:200% 50%}}
-.sub{font-size:clamp(18px,2.4vw,24px);color:var(--muted);min-height:1.6em}
-.sub b{color:var(--text)}.caret{display:inline-block;width:2px;height:1.1em;background:var(--a2);vertical-align:-3px;margin-left:3px;animation:blink 1s steps(1) infinite}
-@keyframes blink{50%{opacity:0}}
-.fa-line{margin-top:8px;color:var(--muted);font-size:17px}
-.cta{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap;justify-content:center}
-.btn{padding:14px 26px;border-radius:14px;font-weight:600;border:1px solid var(--line);background:var(--card);backdrop-filter:blur(10px);transition:.3s}
-.btn.primary{background:var(--grad);color:#0b0b1f;border:0;box-shadow:0 10px 40px rgba(142,162,255,.35)}
-.btn:hover{transform:translateY(-3px)}
-.scroll{margin-top:60px;width:26px;height:42px;border:2px solid var(--line);border-radius:14px;position:relative}.scroll:after{content:'';position:absolute;left:50%;top:8px;width:4px;height:8px;border-radius:2px;background:var(--a2);transform:translateX(-50%);animation:sc 1.8s infinite}
-@keyframes sc{to{top:24px;opacity:0}}
-section{padding:110px 5vw;max-width:1200px;margin:0 auto}
-.kicker{color:var(--a2);letter-spacing:3px;font-size:13px;text-transform:uppercase}
-h2{font-size:clamp(32px,5vw,52px);margin:6px 0 40px}
-.reveal{opacity:0;transform:translateY(40px);transition:1s cubic-bezier(.2,.8,.2,1)}.reveal.on{opacity:1;transform:none}
-.grid{display:grid;gap:22px}.g3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
-.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px;backdrop-filter:blur(14px);transform-style:preserve-3d;transition:transform .15s ease-out,border-color .3s,box-shadow .3s;will-change:transform}
-.card:hover{border-color:rgba(181,140,255,.5);box-shadow:0 20px 60px rgba(80,60,200,.25)}
-.card h3{font-size:20px;margin:14px 0 8px;transform:translateZ(30px)}.card p{color:var(--muted);font-size:15px;transform:translateZ(20px)}
-.ic{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;background:var(--grad);color:#0b0b1f;font-weight:700;font-size:20px;transform:translateZ(40px)}
-.chips{display:flex;flex-wrap:wrap;gap:12px}
-.chip{padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:var(--card);font-size:14px;transition:.3s}.chip:hover{background:var(--grad);color:#0b0b1f;transform:translateY(-3px) scale(1.05)}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:22px;margin-top:40px}
-.stat{text-align:center}.stat b{display:block;font-size:46px;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}.stat span{color:var(--muted);font-size:14px}
-.proj{padding:0;overflow:hidden}.proj .img{aspect-ratio:16/10;background:#111 center/cover;transform:translateZ(0);transition:transform .6s}.proj:hover .img{transform:scale(1.06)}
-.proj .body{padding:22px}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.tags i{font-style:normal;font-size:12px;color:var(--a1);border:1px solid rgba(142,162,255,.35);padding:3px 10px;border-radius:99px}
-.links{display:flex;gap:16px;margin-top:14px;font-size:14px}.links a{color:var(--a3)}.links a:hover{text-decoration:underline}
-.contact{text-align:center;border-radius:32px;padding:70px 5vw;background:linear-gradient(135deg,rgba(142,162,255,.14),rgba(181,140,255,.12),rgba(240,201,135,.1));border:1px solid var(--line)}
-.contact p{color:var(--muted);max-width:560px;margin:0 auto 30px}
-footer{text-align:center;padding:40px 5vw 60px;color:var(--muted);font-size:14px}
-@media (max-width:720px){nav ul{display:none}section{padding:80px 5vw}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+img{display:block;max-width:100%}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+::selection{background:var(--acc);color:var(--acc-fg)}
+.mono{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+html[lang="fa"] .mono{font-family:'Vazirmatn',var(--f-mono);letter-spacing:0;text-transform:none;font-size:13px}
+.mut{color:var(--mut)}
+.wrap{max-width:1320px;margin:0 auto;padding:0 var(--gut)}
+
+/* background lines */
+#lines{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+.grain{position:fixed;inset:-50%;z-index:1;pointer-events:none;opacity:.05;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");animation:grain 1.2s steps(4) infinite}
+@keyframes grain{25%{transform:translate(-3%,2%)}50%{transform:translate(2%,-3%)}75%{transform:translate(-2%,-1%)}}
+main,header.bar,footer{position:relative;z-index:2}
+
+/* progress */
+#prog{position:fixed;top:0;inset-inline-start:0;height:2px;width:100%;background:var(--acc);transform-origin:left;transform:scaleX(0);z-index:60}
+[dir="rtl"] #prog{transform-origin:right}
+
+/* loader */
+#loader{position:fixed;inset:0;z-index:100;background:var(--fg);color:var(--bg);display:flex;align-items:flex-end;justify-content:space-between;padding:var(--gut);transition:transform .9s var(--ease) .1s}
+#loader b{font-family:var(--f-sans);font-weight:500;font-size:clamp(64px,14vw,200px);line-height:.8;letter-spacing:-.05em}
+#loader.done{transform:translateY(-100%)}
+
+/* header */
+header.bar{position:fixed;top:0;left:0;right:0;z-index:50;transition:transform .5s var(--ease),background .4s}
+header.bar.hide{transform:translateY(-100%)}
+header.bar.solid{background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:20px}
+.logo{font-weight:600;font-size:17px;letter-spacing:.14em;display:flex;align-items:center;gap:10px}
+.logo i{width:9px;height:9px;border-radius:50%;background:var(--acc);display:inline-block;animation:blink 2.4s ease-in-out infinite}
+@keyframes blink{50%{opacity:.25}}
+.nav{display:flex;gap:30px;font-size:14px}
+.nav a{position:relative;color:var(--mut);transition:color .3s}
+.nav a:hover{color:var(--fg)}
+.nav a::after{content:"";position:absolute;inset-inline:0;bottom:-4px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .45s var(--ease)}
+.nav a:hover::after{transform:scaleX(1);transform-origin:left}
+.tools{display:flex;align-items:center;gap:10px}
+.lang{direction:ltr;display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;position:relative;font-family:var(--f-mono);font-size:12px}
+.lang button{position:relative;z-index:1;padding:6px 11px;border-radius:999px;color:var(--mut);transition:color .3s}
+.lang button.on{color:var(--acc-fg)}
+.lang .pill{position:absolute;top:3px;bottom:3px;left:3px;width:calc(50% - 3px);border-radius:999px;background:var(--acc);transition:transform .45s var(--ease)}
+.lang[data-l="fa"] .pill{transform:translateX(100%)}
+.theme-btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:6px 12px 6px 7px;font-family:var(--f-mono);font-size:12px;color:var(--mut);transition:border-color .3s,color .3s}
+.theme-btn:hover{border-color:var(--fg);color:var(--fg)}
+.sw{width:20px;height:20px;border-radius:50%;background:conic-gradient(var(--fg) 0 50%,var(--acc) 0);border:1px solid var(--line);transition:transform .6s var(--ease)}
+.theme-btn:hover .sw{transform:rotate(180deg)}
+.menu-btn{display:none;width:40px;height:40px;border:1px solid var(--line);border-radius:50%;position:relative}
+.menu-btn span{position:absolute;left:12px;right:12px;height:1px;background:var(--fg);transition:transform .4s var(--ease)}
+.menu-btn span:first-child{top:16px}.menu-btn span:last-child{top:23px}
+body.menu .menu-btn span:first-child{transform:translateY(3.5px) rotate(45deg)}
+body.menu .menu-btn span:last-child{transform:translateY(-3.5px) rotate(-45deg)}
+
+/* hero */
+.hero{min-height:100svh;display:grid;grid-template-columns:1.25fr .75fr;gap:clamp(28px,5vw,80px);align-items:end;padding-top:120px;padding-bottom:56px}
+.eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:28px}
+.dot{width:7px;height:7px;border-radius:50%;background:#3ddc84;box-shadow:0 0 0 0 rgba(61,220,132,.6);animation:ping 2s infinite}
+@keyframes ping{70%{box-shadow:0 0 0 9px rgba(61,220,132,0)}100%{box-shadow:0 0 0 0 rgba(61,220,132,0)}}
+h1{font-weight:500;font-size:clamp(42px,6.3vw,104px);line-height:.95;letter-spacing:-.045em}
+html[lang="fa"] h1{letter-spacing:-.01em;line-height:1.2;font-weight:600;font-size:clamp(34px,5vw,78px)}
+h1 em,h2 em{font-family:var(--f-serif);font-style:italic;font-weight:400;letter-spacing:-.02em;color:var(--acc)}
+html[lang="fa"] h1 em,html[lang="fa"] h2 em{font-family:'Vazirmatn';font-style:normal;font-weight:300}
+.w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.06em}
+.w>span{display:inline-block;transform:translateY(105%);transition:transform 1s var(--ease)}
+.ready .w>span{transform:none}
+.hero-sub{max-width:540px;margin-top:30px;font-size:clamp(16px,1.35vw,19px);color:var(--mut);opacity:0;transform:translateY(14px);transition:1s var(--ease) .5s}
+.ready .hero-sub,.ready .hero-cta{opacity:1;transform:none}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:36px;opacity:0;transform:translateY(14px);transition:1s var(--ease) .65s}
+.btn{display:inline-flex;align-items:center;gap:10px;height:50px;padding:0 24px;border-radius:999px;border:1px solid var(--line);font-size:15px;font-weight:500;position:relative;overflow:hidden;isolation:isolate;transition:color .4s var(--ease),border-color .4s}
+.btn::before{content:"";position:absolute;inset:0;background:var(--fg);transform:translateY(101%);border-radius:inherit;transition:transform .5s var(--ease);z-index:-1}
+.btn:hover{color:var(--bg);border-color:var(--fg)}
+.btn:hover::before{transform:none}
+.btn.solid{background:var(--acc);border-color:var(--acc);color:var(--acc-fg)}
+.btn .arr{transition:transform .4s var(--ease)}
+.btn:hover .arr{transform:translate(3px,-3px)}
+[dir="rtl"] .btn:hover .arr{transform:translate(-3px,-3px)}
+[dir="rtl"] .arr{display:inline-block;transform:scaleX(-1)}
+[dir="rtl"] .btn:hover .arr{transform:scaleX(-1) translate(3px,-3px)}
+
+.portrait{position:relative;justify-self:end;width:100%;max-width:420px}
+.frame{position:relative;aspect-ratio:4/5;overflow:hidden;border-radius:4px;background:var(--card);clip-path:inset(100% 0 0 0);transition:clip-path 1.3s var(--ease) .2s}
+.ready .frame{clip-path:inset(0 0 0 0)}
+.frame img{width:100%;height:118%;object-fit:cover;filter:grayscale(1) contrast(1.05);transform:scale(1.15);transition:filter .8s var(--ease),transform 1.6s var(--ease);will-change:transform}
+.ready .frame img{transform:scale(1)}
+.portrait:hover .frame img{filter:grayscale(0)}
+.frame::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.35),transparent 40%);pointer-events:none}
+.cap{display:flex;justify-content:space-between;margin-top:12px;gap:10px}
+.tag-now{position:absolute;top:14px;inset-inline-start:14px;z-index:2;background:var(--bg);color:var(--fg);padding:6px 10px;border-radius:999px;display:flex;align-items:center;gap:8px}
+.scroll-cue{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:8px}
+.scroll-cue i{width:1px;height:44px;background:linear-gradient(var(--fg),transparent);animation:cue 2s var(--ease) infinite;transform-origin:top}
+@keyframes cue{0%{transform:scaleY(0)}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* sections */
+section{padding:clamp(80px,12vw,160px) 0;position:relative}
+.sec-head{display:grid;grid-template-columns:200px 1fr;gap:24px;align-items:baseline;border-top:1px solid var(--line);padding-top:22px;margin-bottom:clamp(40px,6vw,80px)}
+h2{font-weight:500;font-size:clamp(34px,5vw,72px);line-height:1;letter-spacing:-.04em}
+html[lang="fa"] h2{letter-spacing:0;line-height:1.3;font-weight:600}
+.rv{opacity:0;transform:translateY(40px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.rv.in{opacity:1;transform:none}
+
+/* about */
+.about{display:grid;grid-template-columns:200px 1fr;gap:24px}
+.about p.lead{font-size:clamp(22px,2.6vw,38px);line-height:1.25;letter-spacing:-.02em;max-width:980px}
+html[lang="fa"] .about p.lead{letter-spacing:0;line-height:1.7}
+.about p.lead span{color:var(--mut)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);margin-top:64px;border-top:1px solid var(--line)}
+.stat{padding:26px 0;border-inline-end:1px solid var(--line);padding-inline:0 20px}
+.stat:last-child{border:0}
+.stat b{display:block;font-weight:500;font-size:clamp(44px,6vw,84px);letter-spacing:-.05em;line-height:1}
+
+/* services */
+.svc{border-top:1px solid var(--line)}
+.svc li{list-style:none;border-bottom:1px solid var(--line)}
+.svc .row{display:grid;grid-template-columns:200px 1fr auto;gap:24px;align-items:center;padding:26px 0;cursor:pointer;position:relative}
+.svc h3{font-weight:500;font-size:clamp(22px,2.8vw,40px);letter-spacing:-.03em;transition:transform .5s var(--ease),color .3s}
+html[lang="fa"] .svc h3{letter-spacing:0}
+.svc .row:hover h3{transform:translateX(12px);color:var(--acc)}
+[dir="rtl"] .svc .row:hover h3{transform:translateX(-12px)}
+.svc .plus{width:34px;height:34px;border:1px solid var(--line);border-radius:50%;position:relative;transition:transform .5s var(--ease),background .3s}
+.svc .plus::before,.svc .plus::after{content:"";position:absolute;left:50%;top:50%;width:12px;height:1px;background:var(--fg);transform:translate(-50%,-50%)}
+.svc .plus::after{transform:translate(-50%,-50%) rotate(90deg)}
+.svc li.open .plus{transform:rotate(45deg);background:var(--acc);border-color:var(--acc)}
+.svc li.open .plus::before,.svc li.open .plus::after{background:var(--acc-fg)}
+.svc .body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .6s var(--ease)}
+.svc li.open .body{grid-template-rows:1fr}
+.svc .body>div{overflow:hidden}
+.svc .inner{display:grid;grid-template-columns:200px 1fr;gap:24px;padding-bottom:28px}
+.svc .inner p{max-width:620px;color:var(--mut)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.chips span{border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:13px}
+
+/* work */
+.work{border-top:1px solid var(--line)}
+.work a.item{display:grid;grid-template-columns:200px 1.3fr 1fr 60px;gap:24px;align-items:center;padding:30px 0;border-bottom:1px solid var(--line);position:relative}
+.work a.item::before{content:"";position:absolute;inset:0;background:var(--card);transform:scaleY(0);transform-origin:bottom;transition:transform .55s var(--ease);z-index:-1}
+.work a.item:hover::before{transform:scaleY(1)}
+.work h3{font-weight:500;font-size:clamp(24px,3.4vw,52px);letter-spacing:-.04em;line-height:1;transition:transform .55s var(--ease)}
+html[lang="fa"] .work h3{letter-spacing:0;line-height:1.3}
+.work a.item:hover h3{transform:translateX(14px)}
+[dir="rtl"] .work a.item:hover h3{transform:translateX(-14px)}
+.work .go{justify-self:end;width:46px;height:46px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;transition:background .4s,color .4s,transform .5s var(--ease)}
+.work a.item:hover .go{background:var(--acc);color:var(--acc-fg);border-color:var(--acc);transform:rotate(-45deg)}
+[dir="rtl"] .work .go svg{transform:scaleX(-1)}
+.work .thumb{display:none}
+#peek{position:fixed;top:0;left:0;width:340px;aspect-ratio:16/10;border-radius:6px;overflow:hidden;pointer-events:none;z-index:40;opacity:0;transform:translate(-50%,-50%) scale(.6);transition:opacity .35s var(--ease),transform .5s var(--ease);background:var(--card)}
+#peek.on{opacity:1;transform:translate(-50%,-50%) scale(1)}
+#peek div{position:absolute;inset:0;background-size:cover;background-position:top center;transition:opacity .3s}
+.soon{font-family:var(--f-mono);font-size:11px;border:1px dashed var(--mut);border-radius:999px;padding:3px 8px;margin-inline-start:10px;vertical-align:middle;color:var(--mut)}
+
+/* marquee */
+.marq{overflow:hidden;border-block:1px solid var(--line);padding:26px 0;white-space:nowrap;-webkit-mask:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.marq .track{display:inline-flex;gap:48px;animation:mq 38s linear infinite;will-change:transform}
+.marq.rev .track{animation-direction:reverse;animation-duration:44s}
+.marq span{font-size:clamp(28px,4vw,56px);letter-spacing:-.03em;font-weight:500;display:inline-flex;align-items:center;gap:48px}
+.marq span::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--acc)}
+.marq.rev span{font-family:var(--f-serif);font-style:italic;font-weight:400;color:var(--mut)}
+@keyframes mq{to{transform:translateX(-50%)}}
+.marq-wrap{direction:ltr}
+
+/* contact */
+.contact{text-align:center;padding-bottom:120px}
+.contact .big{display:inline-block;font-weight:500;font-size:clamp(52px,11vw,190px);line-height:.9;letter-spacing:-.06em;margin:24px 0 40px;position:relative}
+html[lang="fa"] .contact .big{letter-spacing:-.01em;line-height:1.2}
+.contact .big em{font-family:var(--f-serif);font-style:italic;font-weight:400;color:var(--acc)}
+html[lang="fa"] .contact .big em{font-family:'Vazirmatn';font-style:normal;font-weight:300}
+.contact .big::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:3px;background:var(--acc);transform:scaleX(0);transition:transform .8s var(--ease)}
+.contact .big:hover::after{transform:scaleX(1)}
+.contact .links{display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding:28px 0 34px}
+footer .wrap{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px}
+footer .end{justify-self:end;display:flex;gap:10px;align-items:center}
+footer .mid{display:flex;gap:22px}
+footer .mid a{color:var(--mut);transition:color .3s}footer .mid a:hover{color:var(--fg)}
+.totop{width:40px;height:40px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;transition:background .3s,color .3s}
+.totop:hover{background:var(--fg);color:var(--bg)}
+
+/* mobile menu */
+.mnav{position:fixed;inset:0;z-index:45;background:var(--bg);display:flex;flex-direction:column;justify-content:center;padding:0 var(--gut);gap:6px;clip-path:circle(0 at calc(100% - 40px) 34px);transition:clip-path .8s var(--ease);visibility:hidden}
+[dir="rtl"] .mnav{clip-path:circle(0 at 40px 34px)}
+body.menu .mnav{clip-path:circle(150% at calc(100% - 40px) 34px);visibility:visible}
+[dir="rtl"] body.menu .mnav,body.menu[dir="rtl"] .mnav{clip-path:circle(150% at 40px 34px)}
+.mnav a{font-size:44px;font-weight:500;letter-spacing:-.04em;border-bottom:1px solid var(--line);padding:8px 0}
+
+@media (max-width:980px){
+  .hero{grid-template-columns:1fr;align-items:start;padding-top:110px}
+  .portrait{justify-self:start;max-width:230px;order:-1}
+  .sec-head,.about,.svc .inner{grid-template-columns:1fr}
+  .svc .row{grid-template-columns:48px 1fr auto}
+  .work a.item{grid-template-columns:1fr 46px;gap:10px 16px}
+  .work a.item .n{grid-column:1/-1}
+  .work a.item .meta{grid-column:1/2}
+  .work .go{grid-row:2/4;grid-column:2}
+  .work .thumb{display:block;grid-column:1/-1;aspect-ratio:16/9;border-radius:4px;background-size:cover;background-position:top center;margin-top:10px}
+  #peek{display:none}
+  .nav,.bar .tools .theme-btn .lbl{display:none}
+  .menu-btn{display:inline-block}
+  footer .wrap{grid-template-columns:1fr;justify-items:start}
+  footer .end{justify-self:start}
+  .stats{grid-template-columns:1fr}
+  .stat{border-inline-end:0;border-bottom:1px solid var(--line)}
+  .scroll-cue{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition-duration:.01ms!important}
+  .grain{display:none}
+}
 </style>
 </head>
 <body>
-<canvas id="stage" aria-hidden="true"></canvas>
-<div class="glow g1"></div><div class="glow g2"></div>
+<div id="loader" aria-hidden="true"><b>ZERO</b><b id="lc">00</b></div>
+<canvas id="lines" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<div id="prog" aria-hidden="true"></div>
+<div id="peek" aria-hidden="true"><div></div></div>
 
-<nav>
-  <a href="#top" class="logo"><span>ZERO</span></a>
-  <ul><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#work">Work</a></li><li><a href="#contact">Contact</a></li></ul>
-</nav>
+<header class="bar">
+  <div class="wrap">
+    <a href="#top" class="logo" aria-label="ZERO — home"><i></i>ZERO</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#work" data-i="nav.work">Work</a>
+      <a href="#services" data-i="nav.services">Services</a>
+      <a href="#about" data-i="nav.about">About</a>
+      <a href="#contact" data-i="nav.contact">Contact</a>
+    </nav>
+    <div class="tools">
+      <div class="lang" data-l="en" role="group" aria-label="Language"><span class="pill"></span><button data-set="en" class="on">EN</button><button data-set="fa">FA</button></div>
+      <button class="theme-btn" aria-label="Change background"><span class="sw"></span><span class="lbl tname">Ink</span></button>
+      <button class="menu-btn" aria-label="Menu"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mnav" aria-hidden="true">
+  <a href="#work" data-i="nav.work">Work</a>
+  <a href="#services" data-i="nav.services">Services</a>
+  <a href="#about" data-i="nav.about">About</a>
+  <a href="#contact" data-i="nav.contact">Contact</a>
+</div>
 
 <main id="top">
-  <header class="hero">
-    <div class="avatar"><img src="https://avatars.githubusercontent.com/zeroux-dev?s=240" alt="ZERO" width="120" height="120"></div>
-    <h1>ZERO</h1>
-    <p class="sub">I'm <b>Sobhan</b> — <span id="typed"></span><span class="caret"></span></p>
-    <p class="fa fa-line">طراح UI/UX، توسعه‌دهنده وب، سئو، وردپرس، بازی‌سازی با Unity و ربات تلگرام</p>
-    <div class="cta">
-      <a class="btn primary" href="#work">View my work</a>
-      <a class="btn" href="https://t.me/fesqhli" target="_blank" rel="noopener">Telegram @fesqhli</a>
-      <a class="btn" href="https://github.com/zeroux-dev" target="_blank" rel="noopener">GitHub</a>
+  <div class="wrap hero">
+    <div>
+      <div class="eyebrow mono"><span class="dot"></span><span data-i="hero.eyebrow">ZERO / Sobhan — available for new projects</span></div>
+      <h1 id="h1" data-i="hero.title">I design interfaces and build <em>fast,</em> honest things for the web.</h1>
+      <p class="hero-sub" data-i="hero.sub">UI/UX, websites and WordPress stores, SEO & Cloudflare, Telegram bots and mini apps, Python/Flask back-ends — and games in Unity.</p>
+      <div class="hero-cta">
+        <a class="btn solid mag" href="https://t.me/fesqhli" target="_blank" rel="noopener"><span data-i="cta.start">Start a project</span><span class="arr">↗</span></a>
+        <a class="btn mag" href="#work"><span data-i="cta.work">Selected work</span></a>
+      </div>
     </div>
-    <div class="scroll" aria-hidden="true"></div>
-  </header>
+    <figure class="portrait">
+      <span class="tag-now mono"><span class="dot"></span>@fesqhli</span>
+      <div class="frame"><img id="pimg" src="https://avatars.githubusercontent.com/zeroux-dev?s=800" alt="Sobhan (ZERO) — UI/UX designer and web developer" width="420" height="525" fetchpriority="high"></div>
+      <figcaption class="cap mono mut"><span data-i="hero.cap">Fig. 01 — Sobhan</span><span>a.k.a. ZERO</span></figcaption>
+    </figure>
+    <div class="scroll-cue mono mut" aria-hidden="true"><span data-i="hero.scroll">Scroll</span><i></i></div>
+  </div>
 
-  <section id="about" class="reveal">
-    <div class="kicker">About me</div>
-    <h2>Design that feels.<br>Code that performs.</h2>
-    <div class="grid g3">
-      <div class="card tilt"><div class="ic">UI</div><h3>UI/UX Design</h3><p>Clean, modern interfaces and user flows — from wireframe to pixel-perfect prototype.</p></div>
-      <div class="card tilt"><div class="ic">&lt;/&gt;</div><h3>Web Development</h3><p>Fast, responsive websites and web apps, WordPress & WooCommerce stores and custom plugins.</p></div>
-      <div class="card tilt"><div class="ic">TG</div><h3>Telegram Mini Apps & Bots</h3><p>Shop bots, support bots, automation and full web apps that run inside Telegram.</p></div>
-      <div class="card tilt"><div class="ic">SEO</div><h3>SEO & Performance</h3><p>Technical SEO, Cloudflare setup, speed optimisation and Search Console.</p></div>
-      <div class="card tilt"><div class="ic">3D</div><h3>Unity Games</h3><p>Game development with Unity — gameplay, UI and interactive 3D experiences.</p></div>
-      <div class="card tilt"><div class="ic">Py</div><h3>Python & Flask</h3><p>Back-end apps with Flask, SQLAlchemy and PostgreSQL, including admin dashboards.</p></div>
-    </div>
-    <div class="stats">
-      <div class="stat"><b data-count="4">0</b><span>Live client websites</span></div>
-      <div class="stat"><b data-count="6">0</b><span>Public projects</span></div>
-      <div class="stat"><b data-count="10">0</b><span>Core skills</span></div>
-      <div class="stat"><b data-count="100">0</b><span>% passion</span></div>
+  <section id="about">
+    <div class="wrap">
+      <div class="about">
+        <div class="mono mut rv">(01) <span data-i="about.k">About</span></div>
+        <div>
+          <p class="lead rv" data-i="about.lead">I'm Sobhan — people online know me as ZERO. I work where design meets code: <span>I sketch the interface, write the front-end, wire up the back-end and make sure Google can find it.</span> Small team energy, one person, no hand-offs.</p>
+          <div class="stats rv">
+            <div class="stat"><b data-count="4">0</b><span class="mut" data-i="stat.1">live client stores</span></div>
+            <div class="stat"><b data-count="7">0</b><span class="mut" data-i="stat.2">disciplines, one workflow</span></div>
+            <div class="stat"><b data-count="2">0</b><span class="mut" data-i="stat.3">Unity games in progress</span></div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="skills" class="reveal">
-    <div class="kicker">Toolbox</div>
-    <h2>Skills & Stack</h2>
-    <div class="chips">
-      <span class="chip">Figma</span><span class="chip">Adobe XD</span><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript</span><span class="chip">React</span><span class="chip">Tailwind</span><span class="chip">WordPress</span><span class="chip">WooCommerce</span><span class="chip">PHP</span><span class="chip">Python</span><span class="chip">Flask</span><span class="chip">PostgreSQL</span><span class="chip">Node.js</span><span class="chip">Telegram Bot API</span><span class="chip">Unity</span><span class="chip">C#</span><span class="chip">Cloudflare</span><span class="chip">Google Search Console</span><span class="chip">Git</span>
+  <section id="services">
+    <div class="wrap">
+      <div class="sec-head rv"><span class="mono mut">(02) <span data-i="svc.k">Services</span></span><h2 data-i="svc.h">What I can <em>do</em> for you</h2></div>
+      <ul class="svc rv">
+        <li class="open"><div class="row"><span class="mono mut">01</span><h3 data-i="s1.t">UI/UX Design</h3><span class="plus"></span></div><div class="body"><div><div class="inner"><span></span><div><p data-i="s1.d">Research, user flows, wireframes and high-fidelity prototypes. Interfaces that are calm, clear and easy to build.</p><div class="chips"><span>Figma</span><span>Adobe XD</span><span>Prototyping</span><span>Design systems</span></div></div></div></div></div></li>
+        <li><div class="row"><span class="mono mut">02</span><h3 data-i="s2.t">Web Development</h3><span class="plus"></span></div><div class="body"><div><div class="inner"><span></span><div><p data-i="s2.d">Responsive, fast websites and web apps — hand-written HTML/CSS/JS or React, tuned for Core Web Vitals.</p><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Tailwind</span><span>Node.js</span></div></div></div></div></div></li>
+        <li><div class="row"><span class="mono mut">03</span><h3 data-i="s3.t">WordPress & WooCommerce</h3><span class="plus"></span></div><div class="body"><div><div class="inner"><span></span><div><p data-i="s3.d">Complete stores and company sites, custom themes and my own WordPress plugins when an off-the-shelf one isn't enough.</p><div class="chips"><span>WordPress</span><span>WooCommerce</span><span>PHP</span><span>Custom plugins</span></div></div></div></div></div></li>
+        <li><div class="row"><span class="mono mut">04</span><h3 data-i="s4.t">SEO & Cloudflare</h3><span class="plus"></span></div><div class="body"><div><div class="inner"><span></span><div><p data-i="s4.d">Technical SEO, structured data, Search Console, speed work and Cloudflare setup for DNS, caching and security.</p><div class="chips"><span>Technical SEO</span><span>Search Console</span><span>Cloudflare</span><span>Performance</span></div></div></div></div></div></li>
+        <li><div class="row"><span class="mono mut">05</span><h3 data-i="s5.t">Telegram Bots & Mini Apps</h3><span class="plus"></span></div><div class="body"><div><div class="inner"><span></span><div><p data-i="s5.d">Shop and support bots, admin automation, and full web apps that open right inside Telegram.</p><div class="chips"><span>Bot API</span><span>Mini Apps</span><span>Python</span><span>Node.js</span></div></div></div></div></div></li>
+        <li><div class="row"><span class="mono mut">06</span><h3 data-i="s6.t">Python & Flask</h3><span class="plus"></span></div><div class="body"><div><div class="inner"><span></span><div><p data-i="s6.d">Back-ends with Flask, SQLAlchemy and PostgreSQL — accounts, dashboards, content management.</p><div class="chips"><span>Python</span><span>Flask</span><span>SQLAlchemy</span><span>PostgreSQL</span></div></div></div></div></div></li>
+        <li><div class="row"><span class="mono mut">07</span><h3 data-i="s7.t">Unity Games</h3><span class="plus"></span></div><div class="body"><div><div class="inner"><span></span><div><p data-i="s7.d">Gameplay, game UI and small interactive 3D experiences built in Unity with C#.</p><div class="chips"><span>Unity</span><span>C#</span><span>2D / 3D</span></div></div></div></div></div></li>
+      </ul>
     </div>
   </section>
 
-  <section id="work" class="reveal">
-    <div class="kicker">Selected work</div>
-    <h2>Projects</h2>
-    <div class="grid g3">
-      <article class="card proj tilt"><div class="img" style="background-image:url(https://raw.githubusercontent.com/zeroux-dev/zxacc-store-showcase/main/screenshots/zxacc.jpg)"></div><div class="body"><h3>ZxAcc — Premium Accounts Store</h3><p>E-commerce store for digital accounts with smart search and instant delivery.</p><div class="tags"><i>WordPress</i><i>WooCommerce</i><i>UI/UX</i></div><div class="links"><a href="https://zxacc.store" target="_blank" rel="noopener">Live ↗</a><a href="https://github.com/zeroux-dev/zxacc-store-showcase" target="_blank" rel="noopener">Showcase ↗</a></div></div></article>
-      <article class="card proj tilt"><div class="img" style="background-image:url(https://raw.githubusercontent.com/zeroux-dev/network-book-showcase/main/screenshots/networkbook.jpg)"></div><div class="body"><h3>Network Book — Online Bookstore</h3><p>Bookstore with category search, pay-on-delivery and app-style mobile UI.</p><div class="tags"><i>WordPress</i><i>WooCommerce</i><i>SEO</i></div><div class="links"><a href="https://network-book.ir" target="_blank" rel="noopener">Live ↗</a><a href="https://github.com/zeroux-dev/network-book-showcase" target="_blank" rel="noopener">Showcase ↗</a></div></div></article>
-      <article class="card proj tilt"><div class="img" style="background-image:url(https://raw.githubusercontent.com/zeroux-dev/nila-gallery-showcase/main/screenshots/nilagallery.jpg)"></div><div class="body"><h3>Nila Gallery — Accessories Shop</h3><p>Colorful online shop with mega-menu, campaigns and social integration.</p><div class="tags"><i>WordPress</i><i>WooCommerce</i><i>UI/UX</i></div><div class="links"><a href="https://nilagallery.ir" target="_blank" rel="noopener">Live ↗</a><a href="https://github.com/zeroux-dev/nila-gallery-showcase" target="_blank" rel="noopener">Showcase ↗</a></div></div></article>
-      <article class="card proj tilt"><div class="img" style="background-image:url(https://raw.githubusercontent.com/zeroux-dev/kharazi-tavos-showcase/main/screenshots/kharazitavos.jpg)"></div><div class="body"><h3>Kharazi Tavos — Craft Supplies</h3><p>Craft & sewing supplies store with visual categories and banner grid.</p><div class="tags"><i>WordPress</i><i>WooCommerce</i><i>SEO</i></div><div class="links"><a href="https://kharazitavos.com" target="_blank" rel="noopener">Live ↗</a><a href="https://github.com/zeroux-dev/kharazi-tavos-showcase" target="_blank" rel="noopener">Showcase ↗</a></div></div></article>
-      <article class="card proj tilt"><div class="img" style="background-image:url(https://raw.githubusercontent.com/zeroux-dev/flask-tech-blog/main/demo/covers/flask.jpg)"></div><div class="body"><h3>TechBlog — Flask Blog & Admin</h3><p>Full blog with accounts, likes, comments, reports and an admin dashboard.</p><div class="tags"><i>Python</i><i>Flask</i><i>PostgreSQL</i></div><div class="links"><a href="https://zeroux-dev.github.io/flask-tech-blog/" target="_blank" rel="noopener">Live demo ↗</a><a href="https://github.com/zeroux-dev/flask-tech-blog" target="_blank" rel="noopener">Code ↗</a></div></div></article>
-      <article class="card proj tilt"><div class="img" style="background:var(--grad);display:grid;place-items:center;color:#0b0b1f;font-size:44px;font-weight:700">UNITY</div><div class="body"><h3>Unity Games</h3><p>Two games are on the way — stay tuned.</p><div class="tags"><i>Unity</i><i>C#</i><i>Game Dev</i></div><div class="links"><a href="https://github.com/zeroux-dev" target="_blank" rel="noopener">GitHub ↗</a></div></div></article>
+  <div class="marq-wrap" aria-hidden="true">
+    <div class="marq"><div class="track"></div></div>
+    <div class="marq rev"><div class="track"></div></div>
+  </div>
+
+  <section id="work">
+    <div class="wrap">
+      <div class="sec-head rv"><span class="mono mut">(03) <span data-i="work.k">Selected work</span></span><h2 data-i="work.h">Projects that are <em>live</em> right now</h2></div>
+      <div class="work">
+        <a class="item rv" href="https://zxacc.store" target="_blank" rel="noopener" data-img="https://raw.githubusercontent.com/zeroux-dev/zxacc-store-showcase/main/screenshots/zxacc.jpg"><span class="n mono mut">01 — WordPress</span><h3>ZxAcc</h3><span class="meta mut" data-i="w1">Premium digital accounts store</span><span class="go"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg></span><span class="thumb"></span></a>
+        <a class="item rv" href="https://network-book.ir" target="_blank" rel="noopener" data-img="https://raw.githubusercontent.com/zeroux-dev/network-book-showcase/main/screenshots/networkbook.jpg"><span class="n mono mut">02 — WooCommerce</span><h3>Network Book</h3><span class="meta mut" data-i="w2">Online bookstore</span><span class="go"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg></span><span class="thumb"></span></a>
+        <a class="item rv" href="https://nilagallery.ir" target="_blank" rel="noopener" data-img="https://raw.githubusercontent.com/zeroux-dev/nila-gallery-showcase/main/screenshots/nilagallery.jpg"><span class="n mono mut">03 — WooCommerce</span><h3>Nila Gallery</h3><span class="meta mut" data-i="w3">Hair accessories shop</span><span class="go"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg></span><span class="thumb"></span></a>
+        <a class="item rv" href="https://kharazitavos.com" target="_blank" rel="noopener" data-img="https://raw.githubusercontent.com/zeroux-dev/kharazi-tavos-showcase/main/screenshots/kharazitavos.jpg"><span class="n mono mut">04 — WordPress · SEO</span><h3>Kharazi Tavos</h3><span class="meta mut" data-i="w4">Sewing & craft supplies</span><span class="go"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg></span><span class="thumb"></span></a>
+        <a class="item rv" href="https://zeroux-dev.github.io/flask-tech-blog/" target="_blank" rel="noopener" data-img="https://raw.githubusercontent.com/zeroux-dev/flask-tech-blog/main/demo/covers/flask.jpg"><span class="n mono mut">05 — Python · Flask</span><h3>TechBlog</h3><span class="meta mut" data-i="w5">Flask blog & admin panel — open source, live demo</span><span class="go"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg></span><span class="thumb"></span></a>
+        <a class="item rv" href="https://github.com/zeroux-dev" target="_blank" rel="noopener"><span class="n mono mut">06 — Unity · C#</span><h3><span data-i="w6t">Two games</span><span class="soon" data-i="soon">soon</span></h3><span class="meta mut" data-i="w6">Currently in development</span><span class="go"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.4"/></svg></span></a>
+      </div>
     </div>
   </section>
 
-  <section id="contact" class="reveal">
-    <div class="contact">
-      <div class="kicker">Let's work together</div>
-      <h2>Have a project in mind?</h2>
-      <p>Websites, WordPress stores, Telegram bots, UI/UX or a game idea — send me a message and let's build it.</p>
-      <p class="fa">برای سفارش طراحی سایت، ربات تلگرام یا UI/UX در تلگرام پیام بده.</p>
-      <div class="cta"><a class="btn primary" href="https://t.me/fesqhli" target="_blank" rel="noopener">Message @fesqhli</a><a class="btn" href="https://github.com/zeroux-dev" target="_blank" rel="noopener">github.com/zeroux-dev</a></div>
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <div class="mono mut rv">(04) <span data-i="c.k">Contact</span></div>
+      <a class="big rv" href="https://t.me/fesqhli" target="_blank" rel="noopener" data-i="c.big">Let's <em>talk.</em></a>
+      <p class="mut rv" data-i="c.p" style="max-width:520px;margin:0 auto 34px">A website, a store, a Telegram bot or a game idea — send a message on Telegram and I usually reply the same day.</p>
+      <div class="links rv">
+        <a class="btn solid mag" href="https://t.me/fesqhli" target="_blank" rel="noopener">Telegram — @fesqhli <span class="arr">↗</span></a>
+        <a class="btn mag" href="https://github.com/zeroux-dev" target="_blank" rel="noopener">GitHub — zeroux-dev <span class="arr">↗</span></a>
+      </div>
     </div>
   </section>
 </main>
 
-<footer>Designed & built by <b>ZERO (Sobhan)</b> · <a href="https://t.me/fesqhli">@fesqhli</a> · © 2026</footer>
+<footer>
+  <div class="wrap">
+    <span class="mono mut">© 2026 ZERO (Sobhan)</span>
+    <div class="mid mono"><a href="https://t.me/fesqhli" target="_blank" rel="noopener">Telegram</a><a href="https://github.com/zeroux-dev" target="_blank" rel="noopener">GitHub</a><a href="https://zeroux-dev.github.io/flask-tech-blog/" target="_blank" rel="noopener">Flask demo</a></div>
+    <div class="end">
+      <div class="lang" data-l="en" role="group" aria-label="Language"><span class="pill"></span><button data-set="en" class="on">EN</button><button data-set="fa">FA</button></div>
+      <button class="theme-btn" aria-label="Change background"><span class="sw"></span><span class="tname">Ink</span></button>
+      <a href="#top" class="totop" aria-label="Back to top">↑</a>
+    </div>
+  </div>
+</footer>
 
 <script>
-/* ZERO (Sobhan) — t.me/fesqhli — 3D particle sphere, no libraries */
-(()=>{const c=document.getElementById('stage'),x=c.getContext('2d');let W,H,D=Math.min(devicePixelRatio||1,2);
-const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
-function rs(){W=innerWidth;H=innerHeight;c.width=W*D;c.height=H*D;c.style.width=W+'px';c.style.height=H+'px';x.setTransform(D,0,0,D,0,0)}rs();addEventListener('resize',rs);
-const N=innerWidth<720?420:900,P=[],g=Math.PI*(3-Math.sqrt(5));
-for(let i=0;i<N;i++){const y=1-i/(N-1)*2,r=Math.sqrt(1-y*y),t=g*i;P.push([Math.cos(t)*r,y,Math.sin(t)*r,Math.random()])}
-const ring=[];for(let i=0;i<220;i++){const a=i/220*Math.PI*2;ring.push([Math.cos(a)*1.55,0,Math.sin(a)*1.55])}
-let ax=.35,ay=0,tx=0,ty=0,sy=0;
-addEventListener('mousemove',e=>{tx=(e.clientY/H-.5)*.6;ty=(e.clientX/W-.5)*1.2});
-addEventListener('scroll',()=>{sy=scrollY});
-const cols=[[142,162,255],[181,140,255],[240,201,135]];
-function proj(p,R,cx,cy){let [X,Y,Z]=p;const cA=Math.cos(ay),sA=Math.sin(ay),cB=Math.cos(ax),sB=Math.sin(ax);
-let x1=X*cA-Z*sA,z1=X*sA+Z*cA,y1=Y*cB-z1*sB,z2=Y*sB+z1*cB;const f=3.2/(3.2+z2);return[cx+x1*R*f,cy+y1*R*f,z2,f]}
-function frame(t){x.clearRect(0,0,W,H);ay+=reduce?0:.0022;ax+=(.35+tx-ax)*.04;const yy=ay+ty;
-const R=Math.min(W,H)*(W<720?.34:.3),cx=W/2,cy=H*.46-sy*.25;const save=ay;ay=yy;
-const pts=P.map(p=>{const q=proj(p,R,cx,cy);q.push(p[3]);return q}).sort((a,b)=>b[2]-a[2]);
-for(const q of pts){const d=(1-q[2])/2,a=.15+d*.85,s=.6+d*1.8;const k=cols[Math.floor(q[4]*3)];
-const tw=.6+.4*Math.sin(t/600+q[4]*20);x.fillStyle=`rgba(${k[0]},${k[1]},${k[2]},${a*tw})`;x.beginPath();x.arc(q[0],q[1],s,0,7);x.fill()}
-x.beginPath();ring.forEach((p,i)=>{const q=proj(p,R,cx,cy);i?x.lineTo(q[0],q[1]):x.moveTo(q[0],q[1])});x.closePath();
-const gr=x.createLinearGradient(cx-R*1.6,0,cx+R*1.6,0);gr.addColorStop(0,'rgba(142,162,255,.05)');gr.addColorStop(.5,'rgba(181,140,255,.45)');gr.addColorStop(1,'rgba(240,201,135,.05)');x.strokeStyle=gr;x.lineWidth=1.2;x.stroke();
-const m=proj([Math.cos(t/1400)*1.55,0,Math.sin(t/1400)*1.55],R,cx,cy);const gl=x.createRadialGradient(m[0],m[1],0,m[0],m[1],14*m[3]);gl.addColorStop(0,'rgba(255,240,210,1)');gl.addColorStop(1,'rgba(240,201,135,0)');x.fillStyle=gl;x.beginPath();x.arc(m[0],m[1],14*m[3],0,7);x.fill();
-ay=save;requestAnimationFrame(frame)}requestAnimationFrame(frame)})();
+/* ZERO (Sobhan) · github.com/zeroux-dev · t.me/fesqhli */
+(()=>{
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const root=document.documentElement, RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 
-/* typing roles */
-(()=>{const roles=['UI/UX Designer','Web Developer','WordPress Developer','SEO Specialist','Unity Game Developer','Telegram Bot Builder'];const el=document.getElementById('typed');let i=0,j=0,del=false;
-(function tick(){const w=roles[i];el.textContent=w.slice(0,j);if(!del&&j<w.length)j++;else if(del&&j>0)j--;else{del=!del;if(!del)i=(i+1)%roles.length;setTimeout(tick,del?1400:300);return}setTimeout(tick,del?40:85)})()})();
+/* ---------- i18n ---------- */
+const T={
+en:{'nav.work':'Work','nav.services':'Services','nav.about':'About','nav.contact':'Contact',
+'hero.eyebrow':'ZERO / Sobhan — available for new projects',
+'hero.title':'I design interfaces and build <em>fast,</em> honest things for the web.',
+'hero.sub':'UI/UX, websites and WordPress stores, SEO & Cloudflare, Telegram bots and mini apps, Python/Flask back-ends — and games in Unity.',
+'cta.start':'Start a project','cta.work':'Selected work','hero.cap':'Fig. 01 — Sobhan','hero.scroll':'Scroll',
+'about.k':'About','about.lead':"I'm Sobhan — people online know me as ZERO. I work where design meets code: <span>I sketch the interface, write the front-end, wire up the back-end and make sure Google can find it.</span> One person, no hand-offs.",
+'stat.1':'live client stores','stat.2':'disciplines, one workflow','stat.3':'Unity games in progress',
+'svc.k':'Services','svc.h':'What I can <em>do</em> for you',
+'s1.t':'UI/UX Design','s1.d':'Research, user flows, wireframes and high-fidelity prototypes. Interfaces that are calm, clear and easy to build.',
+'s2.t':'Web Development','s2.d':'Responsive, fast websites and web apps — hand-written HTML/CSS/JS or React, tuned for Core Web Vitals.',
+'s3.t':'WordPress & WooCommerce','s3.d':"Complete stores and company sites, custom themes and my own WordPress plugins when an off-the-shelf one isn't enough.",
+'s4.t':'SEO & Cloudflare','s4.d':'Technical SEO, structured data, Search Console, speed work and Cloudflare setup for DNS, caching and security.',
+'s5.t':'Telegram Bots & Mini Apps','s5.d':'Shop and support bots, admin automation, and full web apps that open right inside Telegram.',
+'s6.t':'Python & Flask','s6.d':'Back-ends with Flask, SQLAlchemy and PostgreSQL — accounts, dashboards, content management.',
+'s7.t':'Unity Games','s7.d':'Gameplay, game UI and small interactive 3D experiences built in Unity with C#.',
+'work.k':'Selected work','work.h':'Projects that are <em>live</em> right now',
+'w1':'Premium digital accounts store','w2':'Online bookstore','w3':'Hair accessories shop','w4':'Sewing & craft supplies','w5':'Flask blog & admin panel — open source, live demo','w6t':'Two games','w6':'Currently in development','soon':'soon',
+'c.k':'Contact','c.big':"Let's <em>talk.</em>",'c.p':'A website, a store, a Telegram bot or a game idea — send a message on Telegram and I usually reply the same day.',
+title:'ZERO (Sobhan) — UI/UX Designer & Web Developer'},
+fa:{'nav.work':'نمونه‌کار','nav.services':'خدمات','nav.about':'درباره من','nav.contact':'تماس',
+'hero.eyebrow':'ZERO / سبحان — آماده‌ی پروژه‌ی جدید',
+'hero.title':'رابط کاربری طراحی می‌کنم و برای وب چیزهای <em>سریع</em> و بی‌نقص می‌سازم.',
+'hero.sub':'طراحی UI/UX، سایت و فروشگاه وردپرسی، سئو و کلادفلر، ربات و مینی‌اپ تلگرام، بک‌اند با پایتون و Flask — و ساخت بازی با Unity.',
+'cta.start':'شروع همکاری','cta.work':'نمونه‌کارها','hero.cap':'تصویر ۰۱ — سبحان','hero.scroll':'اسکرول',
+'about.k':'درباره من','about.lead':'من سبحان هستم؛ در فضای آنلاین با اسم ZERO شناخته می‌شوم. جایی کار می‌کنم که طراحی و کد به هم می‌رسند: <span>رابط کاربری را طراحی می‌کنم، فرانت‌اند را می‌نویسم، بک‌اند را وصل می‌کنم و مطمئن می‌شوم گوگل پیدایش کند.</span> یک نفر، بدون واسطه.',
+'stat.1':'فروشگاه آنلاین فعال','stat.2':'تخصص در یک مسیر کاری','stat.3':'بازی Unity در حال ساخت',
+'svc.k':'خدمات','svc.h':'چه کاری <em>برایت</em> انجام می‌دهم',
+'s1.t':'طراحی UI/UX','s1.d':'تحقیق، جریان کاربر، وایرفریم و پروتوتایپ دقیق. رابط‌هایی آرام، واضح و قابل پیاده‌سازی.',
+'s2.t':'توسعه وب','s2.d':'سایت و وب‌اپ سریع و ریسپانسیو — با HTML/CSS/JS یا React، بهینه برای Core Web Vitals.',
+'s3.t':'وردپرس و ووکامرس','s3.d':'فروشگاه و سایت شرکتی کامل، قالب اختصاصی و افزونه‌ی وردپرسی اختصاصی وقتی افزونه‌ی آماده کافی نیست.',
+'s4.t':'سئو و کلادفلر','s4.d':'سئوی تکنیکال، داده‌ی ساختاریافته، سرچ کنسول، افزایش سرعت و راه‌اندازی کلادفلر برای DNS، کش و امنیت.',
+'s5.t':'ربات و مینی‌اپ تلگرام','s5.d':'ربات فروشگاهی و پشتیبانی، اتوماسیون مدیریت و وب‌اپ کامل که داخل خود تلگرام باز می‌شود.',
+'s6.t':'پایتون و Flask','s6.d':'بک‌اند با Flask، SQLAlchemy و PostgreSQL — حساب کاربری، داشبورد و مدیریت محتوا.',
+'s7.t':'بازی‌سازی با Unity','s7.d':'گیم‌پلی، رابط کاربری بازی و تجربه‌های سه‌بعدی تعاملی با Unity و #C.',
+'work.k':'نمونه‌کارها','work.h':'پروژه‌هایی که همین حالا <em>آنلاین</em> هستند',
+'w1':'فروشگاه اکانت‌های پرمیوم','w2':'کتاب‌فروشی آنلاین','w3':'فروشگاه اکسسوری مو','w4':'لوازم خیاطی و هنری','w5':'وبلاگ Flask با پنل مدیریت — متن‌باز، دموی زنده','w6t':'دو بازی','w6':'در حال ساخت','soon':'به‌زودی',
+'c.k':'تماس','c.big':'بیا <em>صحبت</em> کنیم.','c.p':'سایت، فروشگاه، ربات تلگرام یا ایده‌ی یک بازی — در تلگرام پیام بده؛ معمولاً همان روز جواب می‌دهم.',
+title:'سبحان (ZERO) — طراح UI/UX و توسعه‌دهنده وب'}
+};
+const faDigits=s=>s.replace(/\d/g,d=>'۰۱۲۳۴۵۶۷۸۹'[d]);
+function splitWords(el){
+  // wrap each word (keeping <em>) for the reveal animation
+  const walk=(node,out)=>{node.childNodes.forEach(n=>{
+    if(n.nodeType===3){n.textContent.split(/(\s+)/).forEach(p=>{if(!p)return;if(/^\s+$/.test(p)){out.push(document.createTextNode(' '));return}
+      const w=document.createElement('span');w.className='w';const s=document.createElement('span');s.textContent=p;w.appendChild(s);out.push(w)})}
+    else{const c=n.cloneNode(false);const inner=[];walk(n,inner);inner.forEach(x=>c.appendChild(x));out.push(c)}})};
+  const out=[];walk(el,out);el.innerHTML='';out.forEach(x=>el.appendChild(x));
+  $$('.w>span',el).forEach((s,i)=>s.style.transitionDelay=(i*55)+'ms');
+}
+let lang='en';
+function setLang(l,anim){
+  lang=l;const d=T[l];
+  const apply=()=>{
+    root.lang=l;root.dir=l==='fa'?'rtl':'ltr';
+    $$('[data-i]').forEach(el=>{const v=d[el.dataset.i];if(v!=null)el.innerHTML=v});
+    document.title=d.title;
+    splitWords($('#h1'));
+    $$('.lang').forEach(g=>{g.dataset.l=l;$$('button',g).forEach(b=>b.classList.toggle('on',b.dataset.set===l))});
+    $$('[data-count]').forEach(b=>{if(b.dataset.done)b.textContent=l==='fa'?faDigits(b.dataset.count):b.dataset.count});
+    store.set('zero-lang',l);
+  };
+  if(anim&&!RM){document.body.style.transition='opacity .25s';document.body.style.opacity='0';
+    setTimeout(()=>{apply();document.body.classList.remove('ready');requestAnimationFrame(()=>requestAnimationFrame(()=>{document.body.classList.add('ready');document.body.style.opacity='1'}))},260)}
+  else apply();
+}
+$$('.lang button').forEach(b=>b.addEventListener('click',()=>{if(b.dataset.set!==lang)setLang(b.dataset.set,true)}));
+const qs=new URLSearchParams(location.search).get('lang');
+setLang(qs==='fa'||qs==='en'?qs:(store.get('zero-lang')||((navigator.language||'').startsWith('fa')?'fa':'en')),false);
 
-/* reveal + counters */
-(()=>{const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('on');e.target.querySelectorAll('[data-count]').forEach(b=>{const n=+b.dataset.count;let k=0;const st=setInterval(()=>{k+=Math.max(1,Math.ceil(n/40));if(k>=n){k=n;clearInterval(st)}b.textContent=k+(n===100?'':'+')},30)});io.unobserve(e.target)}),{threshold:.15});document.querySelectorAll('.reveal').forEach(s=>io.observe(s))})();
+/* ---------- theme / background ---------- */
+const THEMES=[['ink','Ink','#0d0d0c'],['paper','Paper','#eeece5'],['blueprint','Blueprint','#0c1d36'],['moss','Moss','#161a13']];
+const THEMES_FA={ink:'جوهر',paper:'کاغذ',blueprint:'بلوپرینت',moss:'خزه'};
+let ti=Math.max(0,THEMES.findIndex(t=>t[0]===store.get('zero-theme')));
+function paintTheme(){const t=THEMES[ti];root.dataset.theme=t[0];$('meta[name=theme-color]').content=t[2];
+  $$('.tname').forEach(n=>n.textContent=lang==='fa'?THEMES_FA[t[0]]:t[1]);store.set('zero-theme',t[0]);lineColors()}
+$$('.theme-btn').forEach(b=>b.addEventListener('click',e=>{
+  ti=(ti+1)%THEMES.length;
+  if(document.startViewTransition&&!RM){
+    const x=e.clientX||innerWidth/2,y=e.clientY||40,r=Math.hypot(Math.max(x,innerWidth-x),Math.max(y,innerHeight-y));
+    const vt=document.startViewTransition(paintTheme);
+    vt.ready.then(()=>root.animate({clipPath:[`circle(0 at ${x}px ${y}px)`,`circle(${r}px at ${x}px ${y}px)`]},{duration:750,easing:'cubic-bezier(.2,.7,.1,1)',pseudoElement:'::view-transition-new(root)'})).catch(()=>{});
+  }else paintTheme();
+}));
+$$('.lang button').forEach(b=>b.addEventListener('click',()=>setTimeout(paintTheme,300)));
 
-/* 3D tilt cards */
-document.querySelectorAll('.tilt').forEach(card=>{card.addEventListener('mousemove',e=>{const r=card.getBoundingClientRect(),px=(e.clientX-r.left)/r.width-.5,py=(e.clientY-r.top)/r.height-.5;card.style.transform=`perspective(900px) rotateY(${px*14}deg) rotateX(${-py*14}deg) translateZ(6px)`});card.addEventListener('mouseleave',()=>card.style.transform='')});
+/* ---------- 3D scroll lines (canvas) ---------- */
+const cv=$('#lines'),cx=cv.getContext('2d');let W,H,DPR,col={fg:'#fff',bg:'#000',acc:'#f60'};
+function lineColors(){const cs=getComputedStyle(root);col={fg:cs.getPropertyValue('--fg').trim(),bg:cs.getPropertyValue('--bg').trim(),acc:cs.getPropertyValue('--acc').trim()}}
+function size(){DPR=Math.min(devicePixelRatio||1,2);W=innerWidth;H=innerHeight;cv.width=W*DPR;cv.height=H*DPR;cx.setTransform(DPR,0,0,DPR,0,0)}
+size();lineColors();addEventListener('resize',size);
+const ROWS=38,PTS=110;let sy=0,ssy=0,mx=0,smx=0,t0=performance.now();
+addEventListener('mousemove',e=>{mx=e.clientX/W-.5},{passive:true});
+function hgt(x,z,t){return Math.sin(x*.55+t*.35)*.35+Math.sin(x*1.3-z*.8+t*.5)*.18+Math.cos(z*.7+x*.3-t*.25)*.4+Math.sin((x*x+z*z)*.08-t*.6)*.25}
+function frame(now){
+  const t=RM?0:(now-t0)/1000;ssy+=(sy-ssy)*.08;smx+=(mx-smx)*.05;
+  const maxS=Math.max(1,document.documentElement.scrollHeight-H),p=ssy/maxS;
+  cx.clearRect(0,0,W,H);
+  const pitch=.18+p*.9, yaw=smx*.25, camH=1.6+p*1.2, travel=ssy*.004, fov=Math.min(W,H)*1.05;
+  const cp=Math.cos(pitch),sp=Math.sin(pitch),cyw=Math.cos(yaw),syw=Math.sin(yaw);
+  const cxp=W/2, cyp=H*.5;
+  for(let i=ROWS-1;i>=0;i--){
+    const zw=1.2+i*.42 - (travel%.42), pts=[];let ok=true;
+    for(let j=0;j<PTS;j++){
+      const xw=(j/(PTS-1)-.5)*16;
+      const yw=hgt(xw,zw+travel,t)*(0.6+i*.03)*(0.8+p*.8);
+      // yaw around Y, then camera pitched down by `pitch`
+      const x=xw*cyw-zw*syw, z=xw*syw+zw*cyw, yr=yw-camH;
+      const zc=z*cp-yr*sp, yc=yr*cp+z*sp;
+      if(zc<=.1){ok=false;break}
+      pts.push([cxp+x/zc*fov, cyp-yc/zc*fov]);
+    }
+    if(!ok)continue;
+    const depth=i/ROWS, a=Math.max(0,(1-depth)*.42*(i===0?(1-(travel%.42)/.42):1));
+    cx.beginPath();cx.moveTo(pts[0][0],pts[0][1]);for(const q of pts)cx.lineTo(q[0],q[1]);
+    cx.lineTo(pts[PTS-1][0],H+10);cx.lineTo(pts[0][0],H+10);cx.closePath();
+    cx.fillStyle=col.bg;cx.globalAlpha=1;cx.fill();
+    cx.beginPath();cx.moveTo(pts[0][0],pts[0][1]);for(const q of pts)cx.lineTo(q[0],q[1]);
+    const accent=((i+Math.floor(travel/.42))%9===0);
+    cx.strokeStyle=accent?col.acc:col.fg;cx.globalAlpha=accent?Math.min(1,a*1.6):a;cx.lineWidth=accent?1.4:1;cx.stroke();
+  }
+  cx.globalAlpha=1;
+  if(!RM)requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+
+/* ---------- scroll: header, progress, parallax ---------- */
+const bar=$('header.bar'),prog=$('#prog'),pimg=$('#pimg');let lastY=0;
+function onScroll(){
+  const y=scrollY;sy=y;
+  const max=document.documentElement.scrollHeight-innerHeight;prog.style.transform=`scaleX(${max>0?y/max:0})`;
+  bar.classList.toggle('solid',y>30);bar.classList.toggle('hide',y>lastY&&y>400&&!document.body.classList.contains('menu'));lastY=y;
+  if(pimg&&y<innerHeight*1.2)pimg.style.transform=`translateY(${-y*.08}px) scale(1)`;
+  if(RM)requestAnimationFrame(frame);
+}
+addEventListener('scroll',onScroll,{passive:true});onScroll();
+
+/* ---------- reveal + counters ---------- */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('in');
+  $$('[data-count]',e.target).forEach(b=>{const n=+b.dataset.count;let k=0;const st=setInterval(()=>{k++;if(k>=n){k=n;clearInterval(st);b.dataset.done=1}
+    b.textContent=(lang==='fa'?faDigits(String(k).padStart(2,'0')):String(k).padStart(2,'0'))},RM?0:160)});
+  io.unobserve(e.target)}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+$$('.rv').forEach((el,i)=>{el.style.transitionDelay=(el.closest('.work')?(i%6)*60:0)+'ms';io.observe(el)});
+
+/* ---------- services accordion ---------- */
+$$('.svc li').forEach(li=>$('.row',li).addEventListener('click',()=>{const o=li.classList.contains('open');$$('.svc li').forEach(x=>x.classList.remove('open'));if(!o)li.classList.add('open')}));
+
+/* ---------- marquee ---------- */
+const stack=['Figma','Adobe XD','HTML','CSS','JavaScript','React','Tailwind','Node.js','Python','Flask','PostgreSQL','PHP','WordPress','WooCommerce'];
+const stack2=['Cloudflare','Search Console','Technical SEO','Telegram Bot API','Mini Apps','Unity','C#','Git','GitHub','Performance','Design Systems','Prototyping'];
+[[$('.marq .track'),stack],[$('.marq.rev .track'),stack2]].forEach(([tr,list])=>{const h=list.map(s=>`<span>${s}</span>`).join('');tr.innerHTML=h+h});
+
+/* ---------- project hover preview ---------- */
+const peek=$('#peek'),pk=$('div',peek);let px=0,py=0,tx=0,ty=0,act=false;
+$$('.work a.item').forEach(a=>{const img=a.dataset.img;const th=$('.thumb',a);if(th&&img)th.style.backgroundImage=`url(${img})`;
+  a.addEventListener('mouseenter',()=>{if(!img)return;pk.style.backgroundImage=`url(${img})`;peek.classList.add('on');act=true});
+  a.addEventListener('mouseleave',()=>{peek.classList.remove('on');act=false})});
+addEventListener('mousemove',e=>{tx=e.clientX;ty=e.clientY},{passive:true});
+(function mv(){px+=(tx-px)*.14;py+=(ty-py)*.14;peek.style.left=px+'px';peek.style.top=py+'px';requestAnimationFrame(mv)})();
+
+/* ---------- magnetic buttons ---------- */
+if(matchMedia('(hover:hover)').matches&&!RM)$$('.mag').forEach(b=>{
+  b.addEventListener('mousemove',e=>{const r=b.getBoundingClientRect();b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.18}px,${(e.clientY-r.top-r.height/2)*.28}px)`});
+  b.addEventListener('mouseleave',()=>{b.style.transition='transform .6s cubic-bezier(.2,.7,.1,1),color .4s,border-color .4s';b.style.transform='';setTimeout(()=>b.style.transition='',600)})});
+
+/* ---------- mobile menu ---------- */
+$('.menu-btn').addEventListener('click',()=>document.body.classList.toggle('menu'));
+$$('.mnav a').forEach(a=>a.addEventListener('click',()=>document.body.classList.remove('menu')));
+
+/* ---------- loader ---------- */
+const ld=$('#loader'),lc=$('#lc');let c=0;
+paintTheme();
+const go=()=>{ld.classList.add('done');document.body.classList.add('ready');setTimeout(()=>ld.remove(),1200)};
+if(RM||sessionStorage.getItem('zero-seen')){ld.style.transition='none';go()}
+else{const it=setInterval(()=>{c+=Math.ceil(Math.random()*9);if(c>=100){c=100;clearInterval(it);setTimeout(go,180)}lc.textContent=String(c).padStart(2,'0')},28);try{sessionStorage.setItem('zero-seen',1)}catch(e){}}
+})();
 </script>
 </body>
 </html>
